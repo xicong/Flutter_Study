@@ -1,0 +1,8 @@
+// This is a generated file; do not edit or check into version control.
+FLUTTER_ROOT=/Users/xc/Desktop/flutter_sdk/flutter
+FLUTTER_APPLICATION_PATH=/Users/xc/Desktop/FlutterDemo
+FLUTTER_TARGET=/Users/xc/Desktop/FlutterDemo/lib/main.dart
+FLUTTER_BUILD_DIR=build
+SYMROOT=${SOURCE_ROOT}/../build/ios
+FLUTTER_FRAMEWORK_DIR=/Users/xc/Desktop/flutter_sdk/flutter/bin/cache/artifacts/engine/ios
+TRACK_WIDGET_CREATION=true

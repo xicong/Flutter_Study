@@ -1,10 +1,7 @@
 # flutterdemo
 
-A new Flutter project.
+一个学习flutter的demo
 
-## Getting Started
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
 
 

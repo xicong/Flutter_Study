@@ -26,7 +26,7 @@ class _LearnContainer extends State<LearnContainer>{
         child: new Text('这是一个Container',
           textAlign:TextAlign.center ,//设置文字居中
           style: new TextStyle(
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),//显示的内容
         padding: EdgeInsets.all(0.0),//设置子控件padding

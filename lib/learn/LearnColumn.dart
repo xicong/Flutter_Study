@@ -30,11 +30,40 @@ class _LearnColumn extends State<LearnColumn>{
         mainAxisSize: MainAxisSize.max,//设置主轴方向所占的宽度和高度
         children: <Widget>[
           new Container(
-            width: 200.0,
-            height: 150.0,
+            height: 50.0,
+            margin: EdgeInsets.all(10),
+            alignment: Alignment.center,
             decoration: new BoxDecoration(
               color: Colors.blue,
             ),
+            child: new Text("子元素1"),
+          ),
+          new Container(
+            height: 50.0,
+            margin: EdgeInsets.all(10),
+            alignment: Alignment.center,
+            decoration: new BoxDecoration(
+              color: Colors.blue,
+            ),
+            child: new Text("子元素1"),
+          ),
+          new Container(
+            height: 50.0,
+            margin: EdgeInsets.all(10),
+            alignment: Alignment.center,
+            decoration: new BoxDecoration(
+              color: Colors.blue,
+            ),
+            child: new Text("子元素1"),
+          ),
+          new Container(
+            height: 50.0,
+            margin: EdgeInsets.all(10),
+            alignment: Alignment.center,
+            decoration: new BoxDecoration(
+              color: Colors.blue,
+            ),
+            child: new Text("子元素1"),
           ),
         ],
       ),

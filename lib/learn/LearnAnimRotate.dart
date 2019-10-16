@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class LearnAnimRotate extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {
@@ -18,11 +19,11 @@ class _LearnAnimRotate extends State<LearnAnimRotate>{
           },
         ),
       ),
-      body: new Center(
-        child: new RotationTransition(
-          turns: null,
-        ),
-      ),
+//      body: new Center(
+//        child: new RotationTransition(
+////          turns: null,
+//        ),
+//      ),
     );
   }
 }

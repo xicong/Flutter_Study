@@ -6,7 +6,9 @@ class LearnRadioButton extends StatefulWidget{
   }
 }
 class _LearnRadioButton extends State<LearnRadioButton>{
+
   int groupValue=1;
+
   @override
   Widget build(BuildContext context) {
     return new Scaffold(

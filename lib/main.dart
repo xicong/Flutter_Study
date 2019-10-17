@@ -18,7 +18,7 @@ import 'package:flutterdemo/learn/LearnText.dart';
 import 'package:flutterdemo/learn/LearnScaffold.dart';
 import 'package:flutterdemo/learn/LearnImg.dart';
 import 'package:flutterdemo/learn/LearnTextField.dart';
-import 'package:flutterdemo/learn/LearnMaterial.dart';
+import 'package:flutterdemo/material/LearnMaterial.dart';
 import 'package:flutterdemo/learn/LearnInkWell.dart';
 import 'package:flutterdemo/learn/LearnButton.dart';
 import 'package:flutterdemo/learn/LearnDropdownButton.dart';
@@ -41,6 +41,8 @@ import 'package:flutterdemo/learn/LearnTabBar.dart';
 import 'package:flutterdemo/learn/LearnHttp.dart';
 import 'package:flutterdemo/learn/LearnJsonAnalysis.dart';
 import 'package:flutterdemo/learn/LearnRow.dart';
+import 'package:flutterdemo/learn/LearnRichText.dart';
+import 'package:flutterdemo/cupertino/LearnCupertino.dart';
 
 void main() {
   //设置debugPaintSizeEnabled为true来更直观的调试布局问题
@@ -118,13 +120,17 @@ class _MainApp extends State<MainApp> {
 //          itemExtent: 45, //强制设置item的高度
           children: <Widget>[
 
+            //设计风格
+            setWidgetNameAndPageName("Material","Android的Material设置风格", new LearnMaterial()),
+            setWidgetNameAndPageName("Cupertino","ios的Cupertino设置风格", new LearnCupertino()),
+
             //基本控件
             setWidgetNameAndPageName("Text", "最基本的文本显示组件",new LearnText()),
-            //rich text
+            setWidgetNameAndPageName("RichText", "具有复杂样式的文本显示组件",new LearnRichText()),
             setWidgetNameAndPageName("TextField","最常用的文本输入控件", new LearnTextField()),
             setWidgetNameAndPageName("Slider","一个用来选择范围性数据的控件", new LearnSlider()),
             setWidgetNameAndPageName("Img","用于展示图片的控件", new LearnImg()),
-            setWidgetNameAndPageName("RadioButton","", new LearnRadioButton()),
+            setWidgetNameAndPageName("RadioButton","Material Design风格的单选按钮", new LearnRadioButton()),
             setWidgetNameAndPageName("CheckBox","一个简单的复选框控件", new LearnCheckBox()),
             setWidgetNameAndPageName("Button","一个按钮控件", new LearnButton()),
             setWidgetNameAndPageName(
@@ -156,9 +162,6 @@ class _MainApp extends State<MainApp> {
             setWidgetNameAndPageName(
                 "AnimDisplacement","一个位移动画", new LearnAnimDisplacement()),
 
-            //设计风格
-            setWidgetNameAndPageName("Material","Material设置风格", new LearnMaterial()),
-
             //刷新
             setWidgetNameAndPageName("Refresh","用于常见的页面刷新功能", new LearnRefresh()),
 
@@ -168,16 +171,6 @@ class _MainApp extends State<MainApp> {
 
             //一些特殊效果
             setWidgetNameAndPageName("InkWell","可以实现线框，水波纹等一些特殊效果", new LearnInkWell()),
-
-
-
-
-
-
-
-
-
-
 
           ],
         ),

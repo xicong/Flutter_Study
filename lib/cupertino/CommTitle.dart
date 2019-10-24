@@ -6,13 +6,19 @@ class CommTitle{
       leading: new GestureDetector(
         child: new Icon(
           CupertinoIcons.back,
-          color: CupertinoColors.black,
+          color: CupertinoColors.white,
         ),
         onTap: () {
           Navigator.pop(context);
         },
       ),
-      middle: new Text(titleName),
+      backgroundColor: CupertinoColors.activeBlue,
+      middle: new Text(titleName,
+        style: new TextStyle(
+          fontWeight: FontWeight.bold,
+          color: CupertinoColors.white
+        ),
+      ),
     );
   }
 

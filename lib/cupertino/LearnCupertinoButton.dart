@@ -24,9 +24,10 @@ class _LearnCupertinoButton extends State<LearnCupertinoButton> {
                   disabledColor: CupertinoColors.black,  //设置按钮被禁用时候的颜色
                   borderRadius: BorderRadius.all(Radius.circular(10)),   //设置按钮的圆角
                   pressedOpacity: 0.5, //设置按钮被按下时候的透明度
-                  onPressed: () {
+                  onPressed: () {  //该方法不写表示按钮被禁用，则会显示被禁用的颜色
                     print("点击了");
-                  }),
+                  }
+              ),
             ),
           ],
         ),

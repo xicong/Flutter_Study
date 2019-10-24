@@ -1,8 +1,18 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutterdemo/cupertino/CommTitle.dart';
 
 import 'package:flutterdemo/cupertino/LearnCupertinoButton.dart';
 import 'package:flutterdemo/cupertino/LearnCupertinoColors.dart';
 import 'package:flutterdemo/cupertino/LearnCupertinoIcons.dart';
+import 'package:flutterdemo/cupertino/LearnCupertinoNavigationBar.dart';
+import 'package:flutterdemo/cupertino/LearnCupertinoPageRoute.dart';
+import 'package:flutterdemo/cupertino/LearnCupertinoPageScaffold.dart';
+import 'package:flutterdemo/cupertino/LearnCupertinoPicker.dart';
+import 'package:flutterdemo/cupertino/LearnCupertinoSlider.dart';
+import 'package:flutterdemo/cupertino/LearnCupertinoSwitch.dart';
+
+
+
 
 class LearnCupertino extends StatefulWidget{
   @override
@@ -19,7 +29,7 @@ Widget setListItem(String title,String description,StatefulWidget name){
       margin: EdgeInsets.all(5),
       decoration: new BoxDecoration(
           color: CupertinoColors.white,
-          border: new Border.all(color: CupertinoColors.black,width: 1.0),
+          border: new Border.all(color: CupertinoColors.activeBlue,width: 1.0),
           borderRadius: new BorderRadius.all(new Radius.circular(5))
       ),
       child: new Row(
@@ -62,35 +72,18 @@ Widget setListItem(String title,String description,StatefulWidget name){
       home: new CupertinoPageScaffold(
         backgroundColor: CupertinoColors.white,
         resizeToAvoidBottomInset:true, //子widget是否应该自动调整自身大小以适应底部的安全距离
-        navigationBar: new CupertinoNavigationBar(
-          automaticallyImplyLeading: false, //是否显示左边组件  作用效果无效
-          automaticallyImplyMiddle: false,  //是否显示中间组件  作用效果无效
-          previousPageTitle: "返回",   //导航左侧组件右边的文本  作用效果无效
-          middle: new Text("CupertinoApp"), //导航栏中间的组件
-          trailing: Icon(CupertinoIcons.add,  //导航栏右边的组件
-            color: CupertinoColors.black,
-          ),
-          border: Border.all( //设置title栏的边框
-              width: 1,
-              color: CupertinoColors.black
-          ),
-          leading: new GestureDetector(
-            child: Icon(CupertinoIcons.back,
-              color: CupertinoColors.black,
-            ),
-            onTap: (){
-              Navigator.pop(context);
-            },
-          ),
-          backgroundColor: CupertinoColors.white, //设置title栏的颜色
-          padding: EdgeInsetsDirectional.only(start: 0,end: 0),  //设置标题栏行下左右的内边距
-          actionsForegroundColor: CupertinoColors.black,
-        ),
+        navigationBar: CommTitle.setTitle(context, "Cupertino"),
         child: new ListView(
           children: <Widget>[
             setListItem("CupertinoButton", "ios风格的按钮", new LearnCupertinoButton()),
             setListItem("CupertinoColors", "ios平台常用的颜色", new LearnCupertinoColors()),
             setListItem("CupertinoIcons", "ios平台常用的图标", new LearnCupertinoIcons()),
+            setListItem("CupertinoNavigationBar", "ios风格的导航栏", new LearnCupertinoNavigationBar()),
+            setListItem("CupertinoPageRoute", "ios风格全屏切换路由的滑动动画", new LearnCupertinoPageRoute()),
+            setListItem("CupertinoPageScaffold", "ios应用程序的页面布局", new LearnCupertinoPageScaffold()),
+            setListItem("CupertinoPicker", "ios风格的选择器", new LearnCupertinoPicker()),
+            setListItem("CupertinoSlider", "ios风格下的滑动条，用来选择范围内的数据", new LearnCupertinoSlider()),
+            setListItem("CupertinoSwitch", "ios风格下的Switch组件", new LearnCupertinoSwitch()),
           ],
         ),
       ),

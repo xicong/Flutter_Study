@@ -2,11 +2,19 @@
 #pub仓库  在Pub上可以下载到支持各种功能的包，首页在根目录下建立pubspec.yaml文件
 
 
-#name是包的名称  
-#dependencies是需要依赖的包名，上面的sqljocky是用来连接MySQL的。执行pub get命令下载相关依赖包 
+#name是包的名称
+#dependencies是需要依赖的包名，上面的sqljocky是用来连接MySQL的。执行pub get命令下载相关依赖包
 
 name: flutterdemo
 description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0
 
 environment:
   sdk: ">=2.2.2 <3.0.0"
@@ -21,8 +29,8 @@ dependencies:
   english_words: ^3.1.0
   http: ^0.11.3+16
   json_annotation: ^0.2.3
-#  fluttertoast: ^2.0.3
-  fluttertoast: ^3.1.0
+  fluttertoast: ^3.1.0  #toast显示
+  intl: 0.15.7  #日期格式化
 
 dev_dependencies:
   flutter_test:

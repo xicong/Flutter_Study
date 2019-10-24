@@ -13,7 +13,7 @@ class _LearnCupertinoIcons extends State<LearnCupertinoIcons> {
   Widget build(BuildContext context) {
     return new CupertinoApp(
       home: new CupertinoPageScaffold(
-        navigationBar: CommTitle.setTitle(context,"CupertinoColors"),
+        navigationBar: CommTitle.setTitle(context,"CupertinoIcons"),
         child: new ListView(
           children: <Widget>[
             new Padding(
@@ -55,6 +55,50 @@ class _LearnCupertinoIcons extends State<LearnCupertinoIcons> {
             new Padding(
                 padding: EdgeInsets.all(10),
                 child: Icon(CupertinoIcons.create_solid,color: CupertinoColors.black,)
+            ),
+            new Padding(
+                padding: EdgeInsets.all(10),
+                child: Icon(CupertinoIcons.bluetooth,color: CupertinoColors.black,)
+            ),
+            new Padding(
+                padding: EdgeInsets.all(10),
+                child: Icon(CupertinoIcons.gear_big,color: CupertinoColors.black,)
+            ),
+            new Padding(
+                padding: EdgeInsets.all(10),
+                child: Icon(CupertinoIcons.gear_solid,color: CupertinoColors.black,)
+            ),
+            new Padding(
+                padding: EdgeInsets.all(10),
+                child: Icon(CupertinoIcons.group,color: CupertinoColors.black,)
+            ),
+            new Padding(
+                padding: EdgeInsets.all(10),
+                child: Icon(CupertinoIcons.group_solid,color: CupertinoColors.black,)
+            ),
+            new Padding(
+                padding: EdgeInsets.all(10),
+                child: Icon(CupertinoIcons.book_solid,color: CupertinoColors.black,)
+            ),
+            new Padding(
+                padding: EdgeInsets.all(10),
+                child: Icon(CupertinoIcons.bookmark,color: CupertinoColors.black,)
+            ),
+            new Padding(
+                padding: EdgeInsets.all(10),
+                child: Icon(CupertinoIcons.bookmark_solid,color: CupertinoColors.black,)
+            ),
+            new Padding(
+                padding: EdgeInsets.all(10),
+                child: Icon(CupertinoIcons.home,color: CupertinoColors.black,)
+            ),
+            new Padding(
+                padding: EdgeInsets.all(10),
+                child: Icon(CupertinoIcons.location_solid,color: CupertinoColors.black,)
+            ),
+            new Padding(
+                padding: EdgeInsets.all(10),
+                child: Icon(CupertinoIcons.location,color: CupertinoColors.black,)
             ),
           ],
         ),

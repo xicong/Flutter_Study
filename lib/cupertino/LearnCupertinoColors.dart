@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutterdemo/cupertino/CommTitle.dart';
+import 'package:flutterdemo/comm/CommTitle.dart';
 
 class LearnCupertinoColors extends StatefulWidget {
   @override
@@ -13,7 +13,7 @@ class _LearnCupertinoColors extends State<LearnCupertinoColors> {
   Widget build(BuildContext context) {
     return new CupertinoApp(
       home: new CupertinoPageScaffold(
-        navigationBar: CommTitle.setTitle(context,"CupertinoColors"),
+        navigationBar: CommTitle.setCupertinoNavigationBar(context,"CupertinoColors"),
         child: new ListView(
           children: <Widget>[
             new Padding(

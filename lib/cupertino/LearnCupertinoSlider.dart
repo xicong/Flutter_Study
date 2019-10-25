@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterdemo/cupertino/CommTitle.dart';
+import 'package:flutterdemo/comm/CommTitle.dart';
 
 class LearnCupertinoSlider extends StatefulWidget {
   @override
@@ -17,7 +17,7 @@ class _LearnCupertinoSlider extends State<LearnCupertinoSlider> {
   Widget build(BuildContext context) {
     return new CupertinoApp(
       home: new CupertinoPageScaffold(
-        navigationBar: CommTitle.setTitle(context,"CupertinoSlider"),
+        navigationBar: CommTitle.setCupertinoNavigationBar(context,"CupertinoSlider"),
         child: new ListView(
           children: <Widget>[
             new CupertinoSlider(

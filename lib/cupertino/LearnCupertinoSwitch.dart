@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutterdemo/cupertino/CommTitle.dart';
+import 'package:flutterdemo/comm/CommTitle.dart';
 
 class LearnCupertinoSwitch extends StatefulWidget {
   @override
@@ -15,7 +15,7 @@ class _LearnCupertinoSwitch extends State<LearnCupertinoSwitch> {
   Widget build(BuildContext context) {
     return new CupertinoApp(
       home: new CupertinoPageScaffold(
-        navigationBar: CommTitle.setTitle(context, "CupertinoIcons"),
+        navigationBar: CommTitle.setCupertinoNavigationBar(context, "CupertinoSwitch"),
         child: new ListView(
           children: <Widget>[
             new CupertinoSwitch(

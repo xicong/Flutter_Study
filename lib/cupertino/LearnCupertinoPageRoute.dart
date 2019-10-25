@@ -1,7 +1,7 @@
 import 'dart:ffi';
 
 import 'package:flutterdemo/utils/ScreenUtils.dart';
-import 'package:flutterdemo/cupertino/CommTitle.dart';
+import 'package:flutterdemo/comm/CommTitle.dart';
 
 import 'package:flutter/cupertino.dart';
 
@@ -23,7 +23,7 @@ class _LearnCupertinoPageRoute extends State<LearnCupertinoPageRoute> {
       text = "这是我的模块跳转过来的新页面,点击此处之后可以返回到我的模块";
     }
     return new CupertinoPageScaffold(
-        navigationBar: CommTitle.setTitle(context, "CupertinoPageRoute跳出来的新页面"),
+        navigationBar: CommTitle.setCupertinoNavigationBar(context, "CupertinoPageRoute跳出来的新页面"),
         child: new Container(
           color: CupertinoColors.white,
           child: new Center(
@@ -59,7 +59,7 @@ class _LearnCupertinoPageRoute extends State<LearnCupertinoPageRoute> {
           //⚠️跳转新页面可以不要底下的tab
 //          return CupertinoPageScaffold(
 //            navigationBar:
-//            CommTitle.setTitle(rootcontext, "CupertinoPageRoute$index"),
+//            CommTitle.setCupertinoNavigationBar(rootcontext, "CupertinoPageRoute$index"),
 //            child: new Center(
 //              child: CupertinoButton(
 //                  child: new Text('我是页面$index'),
@@ -88,7 +88,7 @@ class _LearnCupertinoPageRoute extends State<LearnCupertinoPageRoute> {
             builder: (BuildContext context) {
               return CupertinoPageScaffold(
                 navigationBar:
-                    CommTitle.setTitle(rootcontext, "CupertinoPageRoute$index"),
+                    CommTitle.setCupertinoNavigationBar(rootcontext, "CupertinoPageRoute$index"),
                 child: new Center(
                   child: CupertinoButton(
                       child: new Text('我是页面$index'),

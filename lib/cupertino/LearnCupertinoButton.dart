@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutterdemo/cupertino/CommTitle.dart';
+import 'package:flutterdemo/comm/CommTitle.dart';
 
 class LearnCupertinoButton extends StatefulWidget {
   @override
@@ -13,7 +13,7 @@ class _LearnCupertinoButton extends State<LearnCupertinoButton> {
   Widget build(BuildContext context) {
     return new CupertinoApp(
       home: new CupertinoPageScaffold(
-        navigationBar: CommTitle.setTitle(context,"CupertinoButton"),
+        navigationBar: CommTitle.setCupertinoNavigationBar(context,"CupertinoButton"),
         child: new ListView(
           children: <Widget>[
             new Padding(

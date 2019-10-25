@@ -2,6 +2,7 @@
 import 'dart:ui' as prefix0;
 
 import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
@@ -42,7 +43,10 @@ import 'package:flutterdemo/learn/LearnHttp.dart';
 import 'package:flutterdemo/learn/LearnJsonAnalysis.dart';
 import 'package:flutterdemo/learn/LearnRow.dart';
 import 'package:flutterdemo/learn/LearnRichText.dart';
-import 'package:flutterdemo/cupertino/LearnCupertino.dart';
+
+
+import 'package:flutterdemo/cupertino/LearnCupertinoApp.dart';
+import 'package:flutterdemo/material/LearnMaterialApp.dart';
 
 void main() {
   //设置debugPaintSizeEnabled为true来更直观的调试布局问题
@@ -121,8 +125,8 @@ class _MainApp extends State<MainApp> {
           children: <Widget>[
 
             //设计风格
-            setWidgetNameAndPageName("Material","Android的Material设置风格", new LearnMaterial()),
-            setWidgetNameAndPageName("Cupertino","ios的Cupertino设置风格", new LearnCupertino()),
+            setWidgetNameAndPageName("MaterialApp","Android的Material设置风格", new LearnMaterialApp()),
+            setWidgetNameAndPageName("CupertinoApp","ios的Cupertino设置风格", new LearnCupertinoApp()),
 
             //基本控件
             setWidgetNameAndPageName("Text", "最基本的文本显示组件",new LearnText()),

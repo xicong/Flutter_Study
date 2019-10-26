@@ -1,1 +1,0 @@
-/Users/xc/.pub-cache/hosted/pub.flutter-io.cn/fluttertoast-2.0.7/android/src/main/kotlin/io/github/ponnamkarthik/toast/fluttertoast/FluttertoastPlugin.kt

@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 class CommTitle{
 
-  static Color _titleBackgroundColor=Colors.white;
+  static Color _titleBackgroundColor=Colors.blue;
 
   static GestureDetector _setTitleLeadingIcon(BuildContext context){
     return new GestureDetector(

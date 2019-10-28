@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+import 'package:flutterdemo/comm/CommTitle.dart';
+
+class LearnAnimRotate extends StatefulWidget{
+  @override
+  State<StatefulWidget> createState() {
+    return new _LearnAnimRotate();
+  }
+}
+class _LearnAnimRotate extends State<LearnAnimRotate>{
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      appBar: CommTitle.setMaterialAppBar(context, "AnimRotate"),
+//      body: new Center(
+//        child: new RotationTransition(
+////          turns: null,
+//        ),
+//      ),
+    );
+  }
+}

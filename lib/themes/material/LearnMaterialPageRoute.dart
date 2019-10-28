@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutterdemo/comm/CommListItem.dart';
 import 'package:flutterdemo/comm/CommTitle.dart';
 import 'package:flutterdemo/themes/material/LearnMaterialPageRouteNoParameters.dart';
 import 'package:flutterdemo/themes/material/LearnMaterialPageRouteWithParameters.dart';

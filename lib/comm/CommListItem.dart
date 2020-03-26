@@ -1,6 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutterdemo/comm/PageJump.dart';
 
+/**
+ * 封装一个公用的item
+ */
 class CommListItem {
   static Decoration _setListItemDecoration() {
     return new BoxDecoration(
@@ -51,10 +55,7 @@ class CommListItem {
         ),
       ),
       onTap: () {
-        Navigator.push(context,
-            new MaterialPageRoute(builder: (BuildContext context) {
-          return name;
-        }));
+        PageJump.goNewPage(context, name);
       },
     );
   }

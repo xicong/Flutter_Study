@@ -1,5 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutterdemo/comm/PageJump.dart';
+
+/**
+ * 封装一个公用的title
+ */
 class CommTitle{
 
   static Color _titleBackgroundColor=Colors.blue;
@@ -11,7 +16,7 @@ class CommTitle{
         color: Colors.white,
       ),
       onTap: () {
-        Navigator.pop(context);
+        PageJump.backPage(context);
       },
     );
   }

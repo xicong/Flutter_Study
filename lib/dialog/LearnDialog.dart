@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterdemo/dialog/LearnDropdownButton.dart';
 import 'package:flutterdemo/dialog/LearnDialogBottomShow.dart';
-import 'package:flutterdemo/listview/LearnTable.dart';
 import 'package:flutterdemo/comm/CommListItem.dart';
 import 'package:flutterdemo/comm/CommTitle.dart';
 import 'package:flutterdemo/widgets/LearnRadioButton.dart';

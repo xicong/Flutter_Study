@@ -11,7 +11,7 @@ class _LearnAnimDisplacement extends State<LearnAnimDisplacement>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "AnimDisplacement"),
+      appBar: CommTitle.setMaterialAppBar(context, "AnimDisplacement",null),
       body: new Column(
         children: <Widget>[
           new AnimatedContainer(

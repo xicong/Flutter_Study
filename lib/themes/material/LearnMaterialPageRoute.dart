@@ -21,7 +21,7 @@ class _LearnMaterialPageRoute extends State<LearnMaterialPageRoute> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "MaterialPageRoute"),
+      appBar: CommTitle.setMaterialAppBar(context, "MaterialPageRoute",null),
       body: new ListView.builder(
           itemCount: 3,
           itemBuilder: (BuildContext context, int index) {

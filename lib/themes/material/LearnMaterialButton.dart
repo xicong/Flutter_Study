@@ -18,7 +18,7 @@ class _LearnMaterialButton extends State<LearnMaterialButton> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "MaterialButton"),
+      appBar: CommTitle.setMaterialAppBar(context, "MaterialButton",null),
       body: new ListView.builder(
           itemCount: 3,
           itemBuilder: (BuildContext context, int index) {

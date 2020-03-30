@@ -52,7 +52,7 @@ class _LearnMergeableMaterialItem extends State<LearnMergeableMaterialItem> {
             ])));
 
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "MergeableMaterialItem"),
+      appBar: CommTitle.setMaterialAppBar(context, "MergeableMaterialItem",null),
       body: Column(
         children: <Widget>[
           MergeableMaterial(hasDividers: true, children: items),

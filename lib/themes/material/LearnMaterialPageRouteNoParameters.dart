@@ -16,7 +16,7 @@ class _LearnMaterialPageRouteNoParameters
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar:
-          CommTitle.setMaterialAppBar(context, "MaterialPageRoute不带参数跳转带新页面"),
+          CommTitle.setMaterialAppBar(context, "MaterialPageRoute不带参数跳转带新页面",null),
       body: new Container(
         child: new Text(
           "不带参数",

@@ -21,7 +21,7 @@ class _LearnMaterialPageRouteWithParameters extends State<LearnMaterialPageRoute
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "MaterialPageRoute带参数跳转带新页面"),
+      appBar: CommTitle.setMaterialAppBar(context, "MaterialPageRoute带参数跳转带新页面",null),
       body: new Container(
         child: new Text("带参数:$value",
           style: new TextStyle(

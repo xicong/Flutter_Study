@@ -11,7 +11,7 @@ class _LearnMaterialColor extends State<LearnMaterialColor>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "MaterialColor"),
+      appBar: CommTitle.setMaterialAppBar(context, "MaterialColor",null),
       body: new ListView.builder(
           itemCount: 5,
           itemBuilder: (BuildContext context, int index){

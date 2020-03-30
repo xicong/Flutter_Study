@@ -24,7 +24,7 @@ class _LearnLayout extends State<LearnLayout>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "各种布局控件"),
+      appBar: CommTitle.setMaterialAppBar(context, "各种布局控件",null),
       body: new ListView(
         children: <Widget>[
           CommListItem.setMaterialListItem(

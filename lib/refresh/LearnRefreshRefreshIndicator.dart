@@ -55,7 +55,7 @@ class _LearnRefreshRefreshIndicator extends State<LearnRefreshRefreshIndicator>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "RefreshIndicator刷新"),
+      appBar: CommTitle.setMaterialAppBar(context, "RefreshIndicator刷新",null),
       body: new RefreshIndicator(
         color: Colors.white,
         backgroundColor: Colors.blue,

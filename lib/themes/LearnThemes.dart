@@ -16,7 +16,7 @@ class _LearnThemes extends State<LearnThemes> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "Themes"),
+      appBar: CommTitle.setMaterialAppBar(context, "Themes",null),
       body: new ListView(
         children: <Widget>[
           CommListItem.setMaterialListItem(context, "MaterialApp",

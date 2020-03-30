@@ -12,7 +12,7 @@ class _LearnTextField extends State<StatefulWidget>{
   Widget build(BuildContext context) {
     return new MaterialApp(
       home: new Scaffold(
-        appBar: CommTitle.setMaterialAppBar(context, "TextField"),
+        appBar: CommTitle.setMaterialAppBar(context, "TextField",null),
         body: new Column(
           children: <Widget>[
             new Container(

@@ -10,7 +10,7 @@ class _LearnImg extends State<LearnImg>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "Img"),
+      appBar: CommTitle.setMaterialAppBar(context, "Img",null),
       body: new Container(
         color: Colors.white,
         child:new Column(

@@ -41,7 +41,7 @@ class _LearnText extends State<LearnText> {
 
     return new MaterialApp(
       home: new Scaffold(
-        appBar: CommTitle.setMaterialAppBar(context, "Text"),
+        appBar: CommTitle.setMaterialAppBar(context, "Text",null),
         body: new ListView(
           children: <Widget>[//该listview的子控件数组为空会报错
             new Container(

@@ -16,7 +16,7 @@ class _LearnAnimation extends State<LearnAnimation>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "各种动画"),
+      appBar: CommTitle.setMaterialAppBar(context, "各种动画",null),
       body: new ListView(
         children: <Widget>[
           CommListItem.setMaterialListItem(

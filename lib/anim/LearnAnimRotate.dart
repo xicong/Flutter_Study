@@ -11,7 +11,7 @@ class _LearnAnimRotate extends State<LearnAnimRotate>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "AnimRotate"),
+      appBar: CommTitle.setMaterialAppBar(context, "AnimRotate",null),
 //      body: new Center(
 //        child: new RotationTransition(
 ////          turns: null,

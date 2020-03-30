@@ -1,6 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterdemo/comm/PageJump.dart';
+
+//typedef ItemOnTap = Function();
+//
+//class CallBack{
+//  ItemOnTap itemOnTap;
+//  CallBack({ItemOnTap this.itemOnTap});
+//}
 
 /**
  * 封装一个公用的item
@@ -55,7 +61,15 @@ class CommListItem {
         ),
       ),
       onTap: () {
-        PageJump.goNewPage(context, name);
+//        if(callBack ==null){
+          Navigator.push(context,
+              new MaterialPageRoute(builder: (BuildContext context) {
+                return name;
+              }));
+//        }
+//        else{
+//          callBack.itemOnTap();
+//        }
       },
     );
   }
@@ -67,6 +81,6 @@ class CommListItem {
 
   static Widget setMaterialListItem(
       BuildContext context, String title, String description, Widget name) {
-    return _setListItemView(context, title, description, name);
+    return _setListItemView(context, title, description,name);
   }
 }

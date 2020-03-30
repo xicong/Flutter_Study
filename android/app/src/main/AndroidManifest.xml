@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutterdemo">
+    package="com.cong.flutterdemo">
 
     <!-- The INTERNET permission is required for development. Specifically,
          flutter needs it to communicate with the running application
@@ -15,7 +15,7 @@
 
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="flutter"
+        android:label="Flutter学习"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

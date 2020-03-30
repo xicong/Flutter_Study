@@ -13,7 +13,7 @@ class _LearnRadioButton extends State<LearnRadioButton>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "RadioButton"),
+      appBar: CommTitle.setMaterialAppBar(context, "RadioButton",null),
       body: new Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[

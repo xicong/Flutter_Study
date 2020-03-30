@@ -15,7 +15,7 @@ class _LearnNetwork extends State<LearnNetwork>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "网络"),
+      appBar: CommTitle.setMaterialAppBar(context, "网络",null),
       body: new ListView(
         children: <Widget>[
           CommListItem.setMaterialListItem(

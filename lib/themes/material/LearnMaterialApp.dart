@@ -18,11 +18,11 @@ class _LearnMaterialApp extends State<LearnMaterialApp> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-        appBar: CommTitle.setMaterialAppBar(context, "MaterialApp"),
+        appBar: CommTitle.setMaterialAppBar(context, "MaterialApp",null),
         body: new ListView(
           children: <Widget>[
             CommListItem.setMaterialListItem(context, "MaterialColor",
-                "定义单色以及有10中色调的色样", new LearnMaterialColor()),
+                "定义单色以及有10中色调的色样", new LearnMaterialColor(),),
             CommListItem.setMaterialListItem(context, "MaterialButton",
                 "用于构建一个依赖于ButtonThem和Theme的按钮", new LearnMaterialButton()),
             CommListItem.setMaterialListItem(context, "MaterialPageRoute",

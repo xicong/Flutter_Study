@@ -10,7 +10,7 @@ class _LearnButton extends State<LearnButton>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "Button"),
+      appBar: CommTitle.setMaterialAppBar(context, "Button",null),
       body: new Column(
         children: <Widget>[
           new Center(

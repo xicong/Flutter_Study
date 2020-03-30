@@ -26,7 +26,7 @@ class _LearnRefrsh extends State<LearnRefrsh>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "刷新"),
+      appBar: CommTitle.setMaterialAppBar(context, "刷新",null),
       body: new ListView(
         children: <Widget>[
           CommListItem.setMaterialListItem(

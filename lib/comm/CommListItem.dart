@@ -39,6 +39,7 @@ class CommListItem {
                 children: <Widget>[
                   new Text(
                     title,
+                    maxLines: 1,
                     style: new TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 20,

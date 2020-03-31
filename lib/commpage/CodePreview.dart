@@ -8,9 +8,24 @@ import 'package:flutterdemo/comm/CommTitle.dart';
  */
 
 class CodePreview extends StatefulWidget {
+
+  //和带tab结合使用使用让其打开在tab上面
+  static tabGo(BuildContext context, String title, String codeFilePath) {
+    Navigator.of(context,rootNavigator: true).push(
+        new MaterialPageRoute(
+            maintainState: false,
+            builder: (BuildContext context) {
+              return new CodePreview(
+                title: title,
+                codeFilePath: codeFilePath,
+              );
+            }));
+  }
+  
   static go(BuildContext context, String title, String codeFilePath) {
     Navigator.push(context,
-        new MaterialPageRoute(builder: (BuildContext context) {
+        new MaterialPageRoute(
+            builder: (BuildContext context) {
       return new CodePreview(
         title: title,
         codeFilePath: codeFilePath,

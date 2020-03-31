@@ -59,7 +59,10 @@ flutter:
       - android/app/src/main/res/mipmap-xxhdpi/
       - res/images/
       - lib/
+      - lib/layout/
       - lib/dialog/
+      - lib/refresh/
+      - lib/widgets/
       - lib/list/
       - lib/list/listview/
       - lib/dart_grammar_knowledge/congregation/

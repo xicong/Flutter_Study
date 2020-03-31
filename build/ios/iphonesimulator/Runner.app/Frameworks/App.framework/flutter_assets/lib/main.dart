@@ -2,7 +2,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutterdemo/commpage/CodePreview.dart';
 import 'package:flutterdemo/anim/LearnAnimation.dart';
 import 'package:flutterdemo/comm/CommTitle.dart';
 import 'package:flutterdemo/commpage/WebViewPage.dart';
@@ -13,7 +12,6 @@ import 'package:flutterdemo/layout/LearnLayout.dart';
 import 'package:flutterdemo/network/LearnNetwork.dart';
 import 'package:flutterdemo/refresh/LearnRefrsh.dart';
 import 'package:flutterdemo/widgets/LearnWidgets.dart';
-import 'package:flutterdemo/themes/LearnThemes.dart';
 import 'package:flutterdemo/comm/CommListItem.dart';
 import 'package:package_info/package_info.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -83,18 +81,25 @@ class _MainApp extends State<MainApp> {
       builder: (BuildContext context){
       return SimpleDialog(
         title: new Text("请选择该页面在哪里打开?"),
+        shape: new RoundedRectangleBorder(
+          borderRadius: new BorderRadius.all(Radius.circular(20))
+        ),
         children: <Widget>[
           ListTile(
             leading: new Icon(Icons.radio_button_unchecked,color: Colors.blue,),
-            title: new Text("WebView直接打开"),
+            title: new Text("WebView"),
+            subtitle: new Text("在自带的WebView页面打开"),
             onTap: (){
+              Navigator.pop(context);
               WebViewPage.go(context,"pub.dev",url);
             },
           ),
           ListTile(
             leading: new Icon(Icons.radio_button_unchecked,color: Colors.blue,),
-            title: new Text("去浏览器打开"),
+            title: new Text("浏览器"),
+            subtitle: new Text("在自带的浏览器打开"),
             onTap: (){
+              Navigator.pop(context);
               _launchURL(url);
             },
           )
@@ -199,7 +204,7 @@ class _MainApp extends State<MainApp> {
   Widget build(BuildContext context) {
     return new Scaffold(
 //        backgroundColor: ColorUtils.hexToColor("E3E3E3"),
-      appBar: CommTitle.setMaterialHomeAppBar(context, "Flutter学习"),
+      appBar: CommTitle.setHomeMaterialAppBar(context, "Flutter学习"),
       drawer: setDrawer(),
       body: new Builder(builder: (BuildContext context) {
         return new ListView(
@@ -207,8 +212,6 @@ class _MainApp extends State<MainApp> {
           children: <Widget>[
             CommListItem.setMaterialListItem(context, "Dart知识点",
                 "一些dart语法相关的知识点记录", new Dart_Knowledge_List()),
-            CommListItem.setMaterialListItem(
-                context, "Theme", "主题风格", new LearnThemes()),
             CommListItem.setMaterialListItem(
                 context, "Widgets", "Android的基础控件", new LearnWidgets()),
             CommListItem.setMaterialListItem(

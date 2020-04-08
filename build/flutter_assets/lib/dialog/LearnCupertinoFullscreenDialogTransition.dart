@@ -61,8 +61,8 @@ class _LearnCupertinoFullscreenDialogTransition
                             "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3104782390,412364191&fm=26&gp=0.jpg",)
                           ),
                           animation: Tween<double>(  // 该参数必须传，不然会报错
-                            begin: 1.0,
-                            end: 0.0,
+                            begin: 0.0,
+                            end: 1.0,
                           ).animate(
                             CurvedAnimation(
                               parent: _controller,

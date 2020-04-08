@@ -30,7 +30,7 @@ class _LearnDialog extends State<LearnDialog>{
           CommListItem.setMaterialListItem(context, "SimpleDialog",
               "一个可供选择的对话框", new LearnSimpleDialog()),
           CommListItem.setMaterialListItem(
-              context, "DialogBottom", "向用户传递信息的弹出窗", new LearnDialogBottomShow()),
+              context, "DialogBottom", "一个用来向用户传递信息的弹出窗", new LearnDialogBottomShow()),
           CommListItem.setMaterialListItem(context, "DropdownButton",
               "一个用于向用户传递信息的弹出层。", new LearnDropdownButton()),
           CommListItem.setMaterialListItem(context, "CupertinoAlertDialog",

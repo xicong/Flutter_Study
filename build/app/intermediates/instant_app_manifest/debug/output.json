@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.cong.flutter_study",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "INSTANT_APP_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0.0",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.cong.flutter_study",
+        "split": "",
+        "minSdkVersion": "16"
+      }
+    }
+  ]
+}

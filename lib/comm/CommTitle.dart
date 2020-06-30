@@ -9,9 +9,7 @@ class Callback {
   Callback({CodeOnTap this.codeOnTap});
 }
 
-/**
- * 封装一个公用的title
- */
+/// 封装一个公用的title
 class CommTitle {
   
   static Color _titleBackgroundColor = Colors.blue;

@@ -1,12 +1,9 @@
 //导入dart
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterdemo/comm/CommTitle.dart';
+import 'package:Flutter_Study/comm/CommTitle.dart';
 
-/**
- * 显示代码的公共页面
- */
-
+/// 显示代码的公共页面
 class CodePreview extends StatefulWidget {
 
   //和带tab结合使用使用让其打开在tab上面

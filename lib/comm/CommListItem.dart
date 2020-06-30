@@ -1,3 +1,4 @@
+import 'package:Flutter_Study/comm/public_border.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -8,24 +9,16 @@ import 'package:flutter/material.dart';
 //  CallBack({ItemOnTap this.itemOnTap});
 //}
 
-/**
- * 封装一个公用的item
- */
+/// 封装一个公用的item
 class CommListItem {
-  static Decoration _setListItemDecoration() {
-    return new BoxDecoration(
-        color: Colors.white,
-        border: new Border.all(color: Colors.blue, width: 1.0),
-        borderRadius: new BorderRadius.all(new Radius.circular(5)));
-  }
-
+  
   static GestureDetector _setListItemView(BuildContext context, String title,
       String description, StatefulWidget name) {
     return new GestureDetector(
       child: new Container(
         padding: EdgeInsets.all(20),
         margin: EdgeInsets.all(5),
-        decoration: _setListItemDecoration(),
+        decoration: PublicBorder.blueRadiusDecoration(),
         child: new Flex(  //之前直接用row+column文字过长会出现内容显示不下的错误，
           // 因为row+column都是大小随着内容的增加增加的，除非设置固定大小，但是大小又不好算，所以用flex+Expanded来
           // 实现，可以用flex: 1去占剩下的空间，然后刚好把文字放进去

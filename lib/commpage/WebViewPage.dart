@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterdemo/comm/CommTitle.dart';
+import 'package:Flutter_Study/comm/CommTitle.dart';
 import 'package:progress_dialog/progress_dialog.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
@@ -54,7 +54,7 @@ class _WebViewPage extends State<WebViewPage>{
               setState(() {
                 title = result;
               });
-              progressDialog.dismiss();
+              progressDialog.hide();
             });
           },
         ),

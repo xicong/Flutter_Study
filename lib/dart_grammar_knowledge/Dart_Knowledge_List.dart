@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutterdemo/comm/CommListItem.dart';
-import 'package:flutterdemo/comm/CommTitle.dart';
-import 'package:flutterdemo/commpage/MdFileShow.dart';
+import 'package:Flutter_Study/comm/CommListItem.dart';
+import 'package:Flutter_Study/comm/CommTitle.dart';
+import 'package:Flutter_Study/commpage/MdFileShow.dart';
 
 /**
  * Dart知识列表

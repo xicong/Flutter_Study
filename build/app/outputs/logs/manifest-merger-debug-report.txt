@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:1:1-51:12
+MERGED from [:fluttertoast] /Users/xc/Desktop/myself/Flutter_Study/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] /Users/xc/Desktop/myself/Flutter_Study/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:package_info] /Users/xc/Desktop/myself/Flutter_Study/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_flutter] /Users/xc/Desktop/myself/Flutter_Study/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/7619667f73099691456e81e3fedf8086/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/832f1c4ccf3c29556291f0c1da5e2f24/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/1570490a9aefa8bf7c72c2091e5007e6/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/c38deefe61a4b29c2fedadb5cb828cb9/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/cb7465d23e93e74bedcba12369934f8a/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/4bf5efb9c6ca1cc1042b4ed281aac9d8/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/173f9208ffbdf9865c01df7b01988e09/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/c1dcce990c851a8414570974f70142b1/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/3a332f7b3ba12f0d97b1eff5486f8fcf/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/c20b3a9c01fac1c58487516ff423d6b0/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/68a64a089b7f098f26bb791f76de8be0/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/24d5b49fe2b36ef44f901a0f8118cef3/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/b741faf0c0e978004788a3922a8a438d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/59c8a6e28f96474652a981d6333afcdf/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:1:1-51:12
+	package
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:2:5-37
+		INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:1:1-51:12
+		INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:1:1-51:12
+		INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:10:22-78
+application
+ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:12:5-50:19
+MERGED from [:url_launcher] /Users/xc/Desktop/myself/Flutter_Study/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /Users/xc/Desktop/myself/Flutter_Study/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/173f9208ffbdf9865c01df7b01988e09/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/173f9208ffbdf9865c01df7b01988e09/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/b741faf0c0e978004788a3922a8a438d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/b741faf0c0e978004788a3922a8a438d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/173f9208ffbdf9865c01df7b01988e09/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:14:9-38
+	android:icon
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:15:9-43
+	android:name
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:13:9-57
+activity#com.cong.flutter_study.MainActivity
+ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:16:9-44:20
+	android:launchMode
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:18:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:21:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:22:13-55
+	android:configChanges
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:20:13-163
+	android:theme
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:19:13-47
+	android:name
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:17:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:27:13-30:17
+	android:resource
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:29:15-52
+	android:name
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:28:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:36:13-39:17
+	android:resource
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:38:15-61
+	android:name
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:37:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:40:13-43:29
+action#android.intent.action.MAIN
+ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:41:17-68
+	android:name
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:42:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:47:9-49:33
+	android:value
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:49:13-30
+	android:name
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml:48:13-44
+uses-sdk
+INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+MERGED from [:fluttertoast] /Users/xc/Desktop/myself/Flutter_Study/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/xc/Desktop/myself/Flutter_Study/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/xc/Desktop/myself/Flutter_Study/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/xc/Desktop/myself/Flutter_Study/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/xc/Desktop/myself/Flutter_Study/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/xc/Desktop/myself/Flutter_Study/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter] /Users/xc/Desktop/myself/Flutter_Study/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter] /Users/xc/Desktop/myself/Flutter_Study/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/7619667f73099691456e81e3fedf8086/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/7619667f73099691456e81e3fedf8086/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/832f1c4ccf3c29556291f0c1da5e2f24/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/832f1c4ccf3c29556291f0c1da5e2f24/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/1570490a9aefa8bf7c72c2091e5007e6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/1570490a9aefa8bf7c72c2091e5007e6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/c38deefe61a4b29c2fedadb5cb828cb9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/c38deefe61a4b29c2fedadb5cb828cb9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/cb7465d23e93e74bedcba12369934f8a/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/cb7465d23e93e74bedcba12369934f8a/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/4bf5efb9c6ca1cc1042b4ed281aac9d8/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/4bf5efb9c6ca1cc1042b4ed281aac9d8/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/173f9208ffbdf9865c01df7b01988e09/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/173f9208ffbdf9865c01df7b01988e09/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/c1dcce990c851a8414570974f70142b1/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/c1dcce990c851a8414570974f70142b1/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/3a332f7b3ba12f0d97b1eff5486f8fcf/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/3a332f7b3ba12f0d97b1eff5486f8fcf/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/c20b3a9c01fac1c58487516ff423d6b0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/c20b3a9c01fac1c58487516ff423d6b0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/68a64a089b7f098f26bb791f76de8be0/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/68a64a089b7f098f26bb791f76de8be0/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/24d5b49fe2b36ef44f901a0f8118cef3/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/24d5b49fe2b36ef44f901a0f8118cef3/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/b741faf0c0e978004788a3922a8a438d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/b741faf0c0e978004788a3922a8a438d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/59c8a6e28f96474652a981d6333afcdf/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/59c8a6e28f96474652a981d6333afcdf/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xc/Desktop/myself/Flutter_Study/android/app/src/main/AndroidManifest.xml
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] /Users/xc/Desktop/myself/Flutter_Study/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /Users/xc/Desktop/myself/Flutter_Study/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /Users/xc/Desktop/myself/Flutter_Study/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /Users/xc/Desktop/myself/Flutter_Study/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74

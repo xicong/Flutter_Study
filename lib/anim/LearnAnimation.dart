@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutterdemo/anim/LearnAnim.dart';
-import 'package:flutterdemo/anim/LearnAnimDisplacement.dart';
-import 'package:flutterdemo/anim/LearnAnimRotate.dart';
-import 'package:flutterdemo/comm/CommListItem.dart';
-import 'package:flutterdemo/comm/CommTitle.dart';
+import 'package:Flutter_Study/anim/LearnAnim.dart';
+import 'package:Flutter_Study/anim/LearnAnimDisplacement.dart';
+import 'package:Flutter_Study/anim/LearnAnimRotate.dart';
+import 'package:Flutter_Study/comm/CommListItem.dart';
+import 'package:Flutter_Study/comm/CommTitle.dart';
 
 //各种动画
 class LearnAnimation extends StatefulWidget{

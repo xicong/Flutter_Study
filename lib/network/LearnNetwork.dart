@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutterdemo/network/LearnHttp.dart';
-import 'package:flutterdemo/network/LearnJsonAnalysis.dart';
-import 'package:flutterdemo/comm/CommListItem.dart';
-import 'package:flutterdemo/comm/CommTitle.dart';
+import 'package:Flutter_Study/network/LearnHttp.dart';
+import 'package:Flutter_Study/network/LearnJsonAnalysis.dart';
+import 'package:Flutter_Study/comm/CommListItem.dart';
+import 'package:Flutter_Study/comm/CommTitle.dart';
 
 //各种动画
 class LearnNetwork extends StatefulWidget{

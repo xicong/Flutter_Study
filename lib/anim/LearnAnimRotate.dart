@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterdemo/comm/CommTitle.dart';
+import 'package:Flutter_Study/comm/CommTitle.dart';
 
 class LearnAnimRotate extends StatefulWidget{
   @override

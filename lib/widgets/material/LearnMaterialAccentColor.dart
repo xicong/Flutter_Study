@@ -166,9 +166,9 @@ class PaletteTabView extends StatelessWidget {
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
     final TextStyle whiteTextStyle =
-    textTheme.body1.copyWith(color: Colors.white);
+    textTheme.bodyText1.copyWith(color: Colors.white);
     final TextStyle blackTextStyle =
-    textTheme.body1.copyWith(color: Colors.black);
+    textTheme.bodyText2.copyWith(color: Colors.black);
     final List<Widget> colorItems = primaryKeys.map<Widget>((int index) {
       return DefaultTextStyle(
         style: index > colors.threshold ? whiteTextStyle : blackTextStyle,

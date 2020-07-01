@@ -1,3 +1,4 @@
+import 'package:Flutter_Study/comm/page_status_weight.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:Flutter_Study/comm/CommTitle.dart';
@@ -25,28 +26,35 @@ class DartSet extends StatefulWidget{
   }
 }
 class _DartSet extends State<DartSet>{
+  
+  Widget showDataWeight(data){
+    return new Container(
+      child: new Markdown(
+        data: data == null?"数据获取出错，收到的地址为${widget.mdFilePath}":data,
+      ),
+      padding: EdgeInsets.all(5),
+      margin: EdgeInsets.all(10),
+      decoration: new BoxDecoration(
+          color: Colors.white,
+          border: new Border.all(width: 1,color: Colors.blue),
+          borderRadius: new BorderRadius.all(Radius.circular(25))
+      ),
+    );
+  }
+  
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
       home: new Scaffold(
         appBar: CommTitle.setMaterialAppBar(context, widget.title, null),
-        body:new FutureBuilder(
-            future: DefaultAssetBundle.of(context).loadString(widget.mdFilePath), 
-            builder: (context,snapshot){
-              return new Container(
-                child: new Markdown(
-                  data: snapshot.data == null?"数据获取出错，收到的地址为${widget.mdFilePath}":snapshot.data,
-                ),
-                padding: EdgeInsets.all(5),
-                margin: EdgeInsets.all(10),
-                decoration: new BoxDecoration(
-                  color: Colors.white,
-                  border: new Border.all(width: 1,color: Colors.blue),
-                  borderRadius: new BorderRadius.all(Radius.circular(25))
-                ),
-              );
-            }
-        )
+        body: PageStatusWeight().showRequestStatus(CallBack(
+          requestParsing: (){
+            return DefaultAssetBundle.of(context).loadString(widget.mdFilePath);
+          },
+          showSuccessfulRequestWeight: (data){
+            return showDataWeight(data);
+          }
+        )),
       ),
     );
   }

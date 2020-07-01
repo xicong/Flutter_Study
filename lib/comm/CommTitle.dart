@@ -3,10 +3,9 @@ import 'package:flutter/material.dart';
 
 //回调实现源码的点击
 typedef CodeOnTap = void Function();
-
 class Callback {
   CodeOnTap codeOnTap;
-  Callback({CodeOnTap this.codeOnTap});
+  Callback({this.codeOnTap});
 }
 
 /// 封装一个公用的title
@@ -89,7 +88,7 @@ class CommTitle {
         ), 
         onTap: (){
           if(callback!=null){
-            callback.codeOnTap();
+            callback.codeOnTap;
           }
         });
   }

@@ -1,4 +1,4 @@
-#Tue Jun 30 17:16:27 CST 2020
+#Wed Jul 01 18:04:21 CST 2020
 base.0=/Users/xc/Desktop/myself/Flutter_Study/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

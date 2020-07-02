@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 import 'dart:ui';
 
-import 'package:Flutter_Study/comm/CommTitle.dart';
+import '../comm/CommTitle.dart';
 
 class LearnText extends StatefulWidget {
   @override

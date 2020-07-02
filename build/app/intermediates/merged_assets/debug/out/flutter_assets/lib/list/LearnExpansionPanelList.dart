@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/commpage/CodePreview.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
+import '../comm/page/CodePreview.dart';
+import '../comm/CommTitle.dart';
 class LearnExpansionPanelList extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {

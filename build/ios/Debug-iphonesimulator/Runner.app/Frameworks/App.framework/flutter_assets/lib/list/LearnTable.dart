@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/commpage/CodePreview.dart';
+import 'package:Flutter_Study/comm/page/CodePreview.dart';
 import 'package:Flutter_Study/comm/CommTitle.dart';
 import 'package:Flutter_Study/utils/ScreenUtils.dart';
 class LearnTable extends StatefulWidget{

@@ -1,6 +1,6 @@
+import '../comm/page/CodePreview.dart';
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/commpage/CodePreview.dart';
+import '../comm/CommTitle.dart';
 class LearnDialogBottomShow extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {

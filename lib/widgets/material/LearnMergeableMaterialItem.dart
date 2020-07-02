@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:Flutter_Study/comm/CommTitle.dart';
+import 'package:flutter/material.dart';
 
 class LearnMergeableMaterialItem extends StatefulWidget {
   @override
@@ -23,18 +23,18 @@ class _LearnMergeableMaterialItem extends State<LearnMergeableMaterialItem> {
   @override
   Widget build(BuildContext context) {
     items.add(
-      //class MaterialSlice extends MergeableMaterialItem
+        //class MaterialSlice extends MergeableMaterialItem
         MaterialSlice(
-            key:  ValueKey<int>(currIndexNum),
-            child:  Column(children: <Widget>[
+            key: ValueKey<int>(currIndexNum),
+            child: Column(children: <Widget>[
               // header,
               AnimatedCrossFade(
-                firstChild:  Container(
+                firstChild: Container(
                   height: 20.0,
                   width: 20.0,
                   color: Colors.green,
                 ),
-                secondChild:  Container(
+                secondChild: Container(
                   height: 20.0,
                   width: 20.0,
                   color: Colors.red,
@@ -43,16 +43,17 @@ class _LearnMergeableMaterialItem extends State<LearnMergeableMaterialItem> {
                     ? CrossFadeState.showSecond
                     : CrossFadeState.showFirst,
                 firstCurve:
-                const Interval(0.0, 0.6, curve: Curves.fastOutSlowIn),
+                    const Interval(0.0, 0.6, curve: Curves.fastOutSlowIn),
                 secondCurve:
-                const Interval(0.4, 1.0, curve: Curves.fastOutSlowIn),
+                    const Interval(0.4, 1.0, curve: Curves.fastOutSlowIn),
                 sizeCurve: Curves.fastOutSlowIn,
                 duration: Duration(microseconds: 6),
               )
             ])));
 
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "MergeableMaterialItem",null),
+      appBar:
+          CommTitle.setMaterialAppBar(context, "MergeableMaterialItem", null),
       body: Column(
         children: <Widget>[
           MergeableMaterial(hasDividers: true, children: items),

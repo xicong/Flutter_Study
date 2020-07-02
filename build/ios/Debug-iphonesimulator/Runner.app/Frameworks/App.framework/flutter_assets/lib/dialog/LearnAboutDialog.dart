@@ -1,9 +1,7 @@
+import 'package:Flutter_Study/comm/page/CodePreview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/commpage/CodePreview.dart';
-import 'package:Flutter_Study/utils/ToastUtils.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 
 class LearnAboutDialog extends StatefulWidget {
   @override

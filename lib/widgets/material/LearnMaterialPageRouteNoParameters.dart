@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:Flutter_Study/comm/CommTitle.dart';
 import 'package:Flutter_Study/utils/ScreenUtils.dart';
+import 'package:flutter/material.dart';
 
 class LearnMaterialPageRouteNoParameters extends StatefulWidget {
   @override

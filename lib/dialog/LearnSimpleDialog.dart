@@ -1,8 +1,7 @@
+import '../comm/page/CodePreview.dart';
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/commpage/CodePreview.dart';
-import 'package:Flutter_Study/utils/ToastUtils.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+import '../comm/CommTitle.dart';
+import '../utils/ToastUtils.dart';
 
 class LearnSimpleDialog extends StatefulWidget {
   @override
@@ -38,7 +37,7 @@ class _LearnSimpleDialog extends State<LearnSimpleDialog> {
                             new ListTile(
                               leading: new Icon(Icons.radio_button_unchecked),
                               title: new Text("男"),
-                              onTap: (){
+                              onTap: () {
                                 Navigator.pop(context);
                                 ToastUtils.show("男");
                               },
@@ -46,7 +45,7 @@ class _LearnSimpleDialog extends State<LearnSimpleDialog> {
                             new ListTile(
                               leading: new Icon(Icons.radio_button_unchecked),
                               title: new Text("女"),
-                              onTap: (){
+                              onTap: () {
                                 Navigator.pop(context);
                                 ToastUtils.show("女");
                               },
@@ -54,7 +53,7 @@ class _LearnSimpleDialog extends State<LearnSimpleDialog> {
                             new ListTile(
                               leading: new Icon(Icons.radio_button_unchecked),
                               title: new Text("未知"),
-                              onTap: (){
+                              onTap: () {
                                 Navigator.pop(context);
                                 ToastUtils.show("未知");
                               },

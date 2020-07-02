@@ -1,9 +1,9 @@
 import 'dart:convert';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/comm/page_status_weight.dart';
-import 'package:Flutter_Study/comm/public_border.dart';
-import 'package:Flutter_Study/commpage/CodePreview.dart';
-import 'package:Flutter_Study/network/movie_list_entity.dart';
+import '../comm/CommTitle.dart';
+import '../comm/page_status_weight.dart';
+import '../comm/public_border.dart';
+import '../comm/page/CodePreview.dart';
+import '../network/movie_list_entity.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -25,10 +25,10 @@ class _LearnHttp extends State<LearnHttp>{
         }
       )),
       body: PageStatusWeight().showRequestStatus(CallBack(
-          requestParsing: (){
+          asynchronousTasks: (){
           return requestParsing();
         },
-        showSuccessfulRequestWeight: (data){
+          asynchronousResults: (data){
           return showSuccesWright(data);
         }
       )),

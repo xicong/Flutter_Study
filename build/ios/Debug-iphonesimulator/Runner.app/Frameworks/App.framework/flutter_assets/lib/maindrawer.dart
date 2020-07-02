@@ -1,8 +1,7 @@
+import 'package:Flutter_Study/comm/page/WebViewPage.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:package_info/package_info.dart';
-
-import 'commpage/WebViewPage.dart';
 
 /**
  * 首页的侧边栏

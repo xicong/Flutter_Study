@@ -1,14 +1,20 @@
+import 'dart:convert';
+
+import 'package:Flutter_Study/comm/public_border.dart';
+
+import '../comm/page_status_weight.dart';
+import '../network/json_parsing_entity.dart';
 import 'package:flutter/material.dart';
 
-
-class LearnJsonAnalysis extends StatefulWidget{
+class LearnJsonAnalysis extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return _LearnJsonAnalysis();
   }
 }
-class _LearnJsonAnalysis extends State<LearnJsonAnalysis>{
-  String jsonData='{"name": "John Smith","email": "john@example.com"}';
+
+class _LearnJsonAnalysis extends State<LearnJsonAnalysis> {
+  String jsonData = '{"name": "John Smith","email": "john@example.com"}';
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +23,7 @@ class _LearnJsonAnalysis extends State<LearnJsonAnalysis>{
         title: new Text('JsonAnalysis'),
         leading: new GestureDetector(
           child: Icon(Icons.arrow_back_ios),
-          onTap: (){
+          onTap: () {
             Navigator.pop(context);
           },
         ),
@@ -33,16 +39,39 @@ class _LearnJsonAnalysis extends State<LearnJsonAnalysis>{
             ),
             new Padding(
               padding: const EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 20.0),
-              child:new Text(jsonData),
+              child: new Text(jsonData),
             ),
             new Divider(
               color: Colors.black,
               indent: 0.0,
             ),
             new Text('解析结果'),
+            new Container(
+              decoration: PublicBorder().blueRadiusDecoration(),
+              padding: EdgeInsets.all(10.0),
+              margin: EdgeInsets.all(10.0),
+              child: PageStatusWeight()
+                  .showRequestStatus(CallBack(asynchronousTasks: () {
+                return parsingData();
+              }, asynchronousResults: (data) {
+                var mData = data as JsonParsingEntity;
+                return new Column(
+                  children: <Widget>[
+                    new Text("姓名: ${mData.name}"),
+                    new Text("邮箱: ${mData.email}")
+                  ],
+                );
+              })),
+            )
           ],
         ),
       ),
     );
+  }
+
+  Future<JsonParsingEntity> parsingData() {
+    return Future<JsonParsingEntity>(() {
+      return new JsonParsingEntity().fromJson(json.decode(jsonData));
+    });
   }
 }

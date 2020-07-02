@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
+import '../comm/CommTitle.dart';
 class LearnRadioButton extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {

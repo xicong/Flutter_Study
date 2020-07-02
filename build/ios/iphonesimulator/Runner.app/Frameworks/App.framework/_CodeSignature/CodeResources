@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		XQmFfbjTVe6BTZxOKykcgGmEFLE=
+		0bVgTXqOTZDSftQcM3jmG0o4ItQ=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		vuGAWXEdPot9Z2WiGBlPluovNuQ=
+		dp4wBkawMG20j+2lltpT0x8fqsc=
 		</data>
 		<key>flutter_assets/lib/dart_grammar_knowledge/congregation/Dart_Congregation.md</key>
 		<data>
@@ -42,83 +42,83 @@
 		</data>
 		<key>flutter_assets/lib/dialog/LearnAboutDialog.dart</key>
 		<data>
-		1lII7cKle/clrn853UMXQVuw2Yc=
+		n81iLGG0mMTgLM0feaVx2sHU5UU=
 		</data>
 		<key>flutter_assets/lib/dialog/LearnAlertDialog.dart</key>
 		<data>
-		SuGey+cX7gEgLbQg1vNd4jod0YA=
+		kXNlFWJ7xjFyfwM79qu9QK9v1u8=
 		</data>
 		<key>flutter_assets/lib/dialog/LearnCupertinoAlertDialog.dart</key>
 		<data>
-		n6S3agUSd6q+umlpN18E8KzzgxU=
+		21BwI7xcBG4h1odNmpGrDSlKDkw=
 		</data>
 		<key>flutter_assets/lib/dialog/LearnCupertinoFullscreenDialogTransition.dart</key>
 		<data>
-		nu+/vYUPX0N4iHJZuBCuZyAdmWg=
-		</data>
-		<key>flutter_assets/lib/dialog/LearnDialog.dart</key>
-		<data>
-		aIwmPSjxDh4DOUnTqIpT7JC/FiQ=
+		Xt+vUxd7IW7btp7UJb1e5Xq1H30=
 		</data>
 		<key>flutter_assets/lib/dialog/LearnDialogBottomShow.dart</key>
 		<data>
-		rS+mAbIUh1/AQFy8xVDOxdgNIm8=
+		TPQXBpiinXAuq9tCPzwPjKdMZPI=
 		</data>
 		<key>flutter_assets/lib/dialog/LearnDropdownButton.dart</key>
 		<data>
-		vTonpqwwVusWyxflG0u5YuKQelA=
+		oNJoMuKWVM03dqOXQcU3fS6ZJi4=
 		</data>
 		<key>flutter_assets/lib/dialog/LearnSimpleDialog.dart</key>
 		<data>
-		i7ccUtKJX+iF0ISFH/ozs7wIpD4=
+		QKSYlfBI7rTVH3ftEWJaiTz+wKY=
+		</data>
+		<key>flutter_assets/lib/dialog/learn_dialog.dart</key>
+		<data>
+		7Jy3u9cqoWrJQLMajA8oaJ+dltA=
 		</data>
 		<key>flutter_assets/lib/layout/LearnColumn.dart</key>
 		<data>
-		1A4JmSnaOxVSe/+eF8508Z/nGoE=
+		/XJkETFw/3BNJEtu5avL7HzfalE=
 		</data>
 		<key>flutter_assets/lib/layout/LearnContainer.dart</key>
 		<data>
-		Ef39GOUkPFAlHinkdEKCdnwLWMg=
+		NRwU66s/FKznQnqIPbz8cJ2BR80=
 		</data>
 		<key>flutter_assets/lib/layout/LearnCupertinoTabBar.dart</key>
 		<data>
-		5Ew/hKv+eHHh0dkCAL2B81iQxGk=
+		3fJtpiZJwnxLGdjgK2Nwq5ewZaI=
 		</data>
 		<key>flutter_assets/lib/layout/LearnCupertinoTabScaffold.dart</key>
 		<data>
-		KknQRAIsYIFmpp63c2ZTdalOtSw=
+		WE6LcZ8JfBAP4htlNk+FA3O2FRU=
 		</data>
 		<key>flutter_assets/lib/layout/LearnCupertinoTabView.dart</key>
 		<data>
-		Y+z0W29bz7m9XGgxe8oOXpbz1NI=
-		</data>
-		<key>flutter_assets/lib/layout/LearnLayout.dart</key>
-		<data>
-		NaMk0G8jtll3rIxweN/Mybmj+DY=
+		ER9mdxVAA0SKde/RdvEQpsK6lTI=
 		</data>
 		<key>flutter_assets/lib/layout/LearnRow.dart</key>
 		<data>
-		YXhtpbCwJk4vqtPsrH6gOj4hbBA=
+		suaVF3zcGhFQbKW+efexXndfiyw=
 		</data>
 		<key>flutter_assets/lib/layout/LearnScaffold.dart</key>
 		<data>
-		lilKQuc2r7g1QWucFlvwl11liaA=
+		rOxXJI8qYN8v/xmWUutffB97MY8=
 		</data>
 		<key>flutter_assets/lib/layout/LearnStack.dart</key>
 		<data>
-		xLBi+cQoFnm5itnir3fUcT80vzY=
+		M/R2g5uwfV9vFSyUYdPYQ334dRE=
 		</data>
 		<key>flutter_assets/lib/layout/LearnTabBar.dart</key>
 		<data>
-		pFQ1/BM36dtlB9WlWiQi/Bce3Hw=
+		EmKSpOUl8T4sC3OndaaxnAoBflg=
+		</data>
+		<key>flutter_assets/lib/layout/learn_layout.dart</key>
+		<data>
+		Sbl3oA1TrCsN+yZb11qoHRQboKU=
 		</data>
 		<key>flutter_assets/lib/list/LearnExpansionPanelList.dart</key>
 		<data>
-		GE+dE8rAIfkD1PFXUbvcupvrfjg=
+		NmwbG6X/Y0yQylNo6lMoEWyr5AA=
 		</data>
 		<key>flutter_assets/lib/list/LearnGridView.dart</key>
 		<data>
-		V46HP1eDujGdMbcfFiXroJBLb6I=
+		Z+JknBPk+aJkO5D97H6Cy7sRLus=
 		</data>
 		<key>flutter_assets/lib/list/LearnList.dart</key>
 		<data>
@@ -126,11 +126,11 @@
 		</data>
 		<key>flutter_assets/lib/list/LearnTable.dart</key>
 		<data>
-		ipP07MP/elp7YTLn/AcpCJ05u0U=
+		vQ9AzoEuwWBBHvxwzhSjKNikvUs=
 		</data>
 		<key>flutter_assets/lib/list/listview/LearnListView.dart</key>
 		<data>
-		icGZNuxccfayrvvXjORPYGXJpQQ=
+		TJujjHDWGiDd1DPlNQ5miAkwe3w=
 		</data>
 		<key>flutter_assets/lib/list/listview/LearnListViewChildPage.dart</key>
 		<data>
@@ -142,23 +142,27 @@
 		</data>
 		<key>flutter_assets/lib/main.dart</key>
 		<data>
-		U9lN9z0G5UBm7Yd0v8ihjUexoRU=
+		xL+Bxi5BkzwhLJ7HIMAkMy/iaio=
 		</data>
 		<key>flutter_assets/lib/maindrawer.dart</key>
 		<data>
-		cpWi6SIVtk6b0Z31+4UiZKDa48Q=
+		dHYd+tk1/xZj4sbpo+fe/5+4zK4=
 		</data>
 		<key>flutter_assets/lib/network/LearnHttp.dart</key>
 		<data>
-		y/DHDJKZh9WBcL1bIf5EMPXNdss=
+		vx9a8ya7IXeaPisemPceCM9Xi1Q=
 		</data>
 		<key>flutter_assets/lib/network/LearnJsonAnalysis.dart</key>
 		<data>
-		VR5xT3uSa9JQB+/bebpwTqkMLhk=
+		7H83b7AK5KUcNd0+j92L0mQ6IJ0=
 		</data>
-		<key>flutter_assets/lib/network/LearnNetwork.dart</key>
+		<key>flutter_assets/lib/network/json_parsing_entity.dart</key>
 		<data>
-		+4fVZc3+LUUdlLbIhwhAndwCg8U=
+		y3qT2r9C7lVDSn42Dd2CbLUymtM=
+		</data>
+		<key>flutter_assets/lib/network/learn_network.dart</key>
+		<data>
+		HXip4oZQF460d9oYv7pqVnOVIw8=
 		</data>
 		<key>flutter_assets/lib/network/movie_list_entity.dart</key>
 		<data>
@@ -166,7 +170,7 @@
 		</data>
 		<key>flutter_assets/lib/refresh/LearnRefreshRefreshIndicator.dart</key>
 		<data>
-		8qg+pbGj1Wv49mXzb2DzKui64WU=
+		j8bAf2oIyemBwlettjWOCfWxI7A=
 		</data>
 		<key>flutter_assets/lib/refresh/LearnRefrsh.dart</key>
 		<data>
@@ -212,9 +216,9 @@
 		<data>
 		4bvO3TdFLWN8dAfJpdr4RgnQ75A=
 		</data>
-		<key>flutter_assets/lib/widgets/LearnWidgets.dart</key>
+		<key>flutter_assets/lib/widgets/learn_widgets.dart</key>
 		<data>
-		2GLzF9/HKRH9cNCLDqYk7axR6ak=
+		fdSaUkukHlzbQ9mKv2C9KurroxA=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -239,11 +243,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XQmFfbjTVe6BTZxOKykcgGmEFLE=
+			0bVgTXqOTZDSftQcM3jmG0o4ItQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			vEZtkJT14YXWU68Bl5hXGRiCTVPY8UFRQJg4p+Z8QJY=
+			H5bg4ml6LB7hRXqVfWCCdVBssQaQeF1ERTDPX2YsNLU=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -305,11 +309,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vuGAWXEdPot9Z2WiGBlPluovNuQ=
+			dp4wBkawMG20j+2lltpT0x8fqsc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y0zfIC/AkOMIdOvhGPmJWmP/23FhFyYimpwuC+ssbtI=
+			pYO9HNGS2ym4IsOh823KunW5ZoCi5tpT+31JB2thnZk=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/dart_grammar_knowledge/congregation/Dart_Congregation.md</key>
@@ -327,220 +331,220 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1lII7cKle/clrn853UMXQVuw2Yc=
+			n81iLGG0mMTgLM0feaVx2sHU5UU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wujtcSZ2WRJvigw2m7zH2X0hRsS9vvSRIVlTvqimOdY=
+			VH93MU8dCqgC//CukDa8aNNIzw1JpOHKh8epWHhoG1w=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/dialog/LearnAlertDialog.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SuGey+cX7gEgLbQg1vNd4jod0YA=
+			kXNlFWJ7xjFyfwM79qu9QK9v1u8=
 			</data>
 			<key>hash2</key>
 			<data>
-			IH+IiwPpEQlfF+yqO9BDf72k/Hz2NewlJaQiZEDw2z8=
+			HQDrCTORLjnLlEpMZpw2SlX6JlTspSeBkeTd4F1ZFRA=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/dialog/LearnCupertinoAlertDialog.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n6S3agUSd6q+umlpN18E8KzzgxU=
+			21BwI7xcBG4h1odNmpGrDSlKDkw=
 			</data>
 			<key>hash2</key>
 			<data>
-			iPdGW4IvUc4opUZMMCRaXxkRQfc5EFHyLy4imJ1HTNA=
+			cpfdeV5z9/QFitTUGB4CHlpyn6jzSdY2yofLQEctPY8=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/dialog/LearnCupertinoFullscreenDialogTransition.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nu+/vYUPX0N4iHJZuBCuZyAdmWg=
+			Xt+vUxd7IW7btp7UJb1e5Xq1H30=
 			</data>
 			<key>hash2</key>
 			<data>
-			jBUqU2UnNYvsXVOU/zKtQelLVFLbGodRZqLA/vw7FXM=
-			</data>
-		</dict>
-		<key>flutter_assets/lib/dialog/LearnDialog.dart</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aIwmPSjxDh4DOUnTqIpT7JC/FiQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			r+dYTNaneH9k1BhCiaZ9WbV2V4aWu/vAN3V6XIxL3lY=
+			rMiNTboh8kL7eGfDPshV3u3g0ZNVM33wadlYCUPeOKA=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/dialog/LearnDialogBottomShow.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rS+mAbIUh1/AQFy8xVDOxdgNIm8=
+			TPQXBpiinXAuq9tCPzwPjKdMZPI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hh/11yEWW7gy36cOSrqSkqvxXNDq4L0oHvpTKgDkXLE=
+			V0+JOaq8sRI0Dib8UI1O2GwbSk1vxJLsrYy+B/0WBUk=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/dialog/LearnDropdownButton.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vTonpqwwVusWyxflG0u5YuKQelA=
+			oNJoMuKWVM03dqOXQcU3fS6ZJi4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ba1SEeVK6v91yS4542bDiBYK1Ilfswfcd3Osk/aVRTw=
+			g0P8zdfqU+GEdpKgR4yD3mPYGTBnPokCD57pVoRjCDE=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/dialog/LearnSimpleDialog.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i7ccUtKJX+iF0ISFH/ozs7wIpD4=
+			QKSYlfBI7rTVH3ftEWJaiTz+wKY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+BN4YRPAJjM6DJFynlXnaocfx9SQHSI9+w/PAF3Xl5I=
+			++zeeekH1pSkf8PZkO7qcf5U9IIcJWPO8nCnunh0sMo=
+			</data>
+		</dict>
+		<key>flutter_assets/lib/dialog/learn_dialog.dart</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7Jy3u9cqoWrJQLMajA8oaJ+dltA=
+			</data>
+			<key>hash2</key>
+			<data>
+			wBaTAt2FtmsfjK5MG9F0Pw4phEgx8RF6Tg0+oNa+C1k=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/layout/LearnColumn.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1A4JmSnaOxVSe/+eF8508Z/nGoE=
+			/XJkETFw/3BNJEtu5avL7HzfalE=
 			</data>
 			<key>hash2</key>
 			<data>
-			YbjxTE/uE1nPmvnAnfDTsWWx87k7m/V/4P/FgdUnRKI=
+			KPJf1FIs0gclB/QZ0+oGy6rBJ0/Qlswv1DO2fRMVxzk=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/layout/LearnContainer.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ef39GOUkPFAlHinkdEKCdnwLWMg=
+			NRwU66s/FKznQnqIPbz8cJ2BR80=
 			</data>
 			<key>hash2</key>
 			<data>
-			VY1M9TfW5wv+6SUkoQkarttGGgqNWA7wnB/s1h0SU10=
+			doY28+0kOHpO135EVVyt38ELIIrwBO9SXYfwd5M0OLw=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/layout/LearnCupertinoTabBar.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5Ew/hKv+eHHh0dkCAL2B81iQxGk=
+			3fJtpiZJwnxLGdjgK2Nwq5ewZaI=
 			</data>
 			<key>hash2</key>
 			<data>
-			G1fVlWHtCGgfS0FX9kit2kUMThm6Ezk1ckwJ4hl4U4U=
+			5ssshACDh5XVypWJeXCeqM5o4hpbaw225YM1h6/7Qkc=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/layout/LearnCupertinoTabScaffold.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KknQRAIsYIFmpp63c2ZTdalOtSw=
+			WE6LcZ8JfBAP4htlNk+FA3O2FRU=
 			</data>
 			<key>hash2</key>
 			<data>
-			dpKnWZ3m/Tbz/qI+Mav/r3kAwTQqEbCabvngl+mCFhM=
+			drJuJBG9/rEjexb34wX1R4P4bDqtNfk6Fl0nFyYEVeM=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/layout/LearnCupertinoTabView.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y+z0W29bz7m9XGgxe8oOXpbz1NI=
+			ER9mdxVAA0SKde/RdvEQpsK6lTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			strTnxuDIlgcHmkcIJirfQ9h1SPMc+QwSYLluN8yfj0=
-			</data>
-		</dict>
-		<key>flutter_assets/lib/layout/LearnLayout.dart</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NaMk0G8jtll3rIxweN/Mybmj+DY=
-			</data>
-			<key>hash2</key>
-			<data>
-			DXykvpfqL1XgzCia/en3+wrlz2PbWPiCRxsAFqWfeKE=
+			gcHc/fWVETPku4QMyJoRr/jBqiGXlBY7llAYtd4+Nuc=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/layout/LearnRow.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YXhtpbCwJk4vqtPsrH6gOj4hbBA=
+			suaVF3zcGhFQbKW+efexXndfiyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			LjmeqTmvoY0qYUWkddnJq2Axb5Q626Hjw9TXUmKWoqY=
+			N7CGBGvy/qozXyuzwT6ArX87dMlj6f0mIq1aFOCZxEw=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/layout/LearnScaffold.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lilKQuc2r7g1QWucFlvwl11liaA=
+			rOxXJI8qYN8v/xmWUutffB97MY8=
 			</data>
 			<key>hash2</key>
 			<data>
-			IJNA+j9FH6dc6TYhz0LgqhJLCQPvgEsKT1nSmhUhAEw=
+			rra9VfLEj+GZfD2DQvWGGPSUWNsvEQPqomYTEQODbho=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/layout/LearnStack.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xLBi+cQoFnm5itnir3fUcT80vzY=
+			M/R2g5uwfV9vFSyUYdPYQ334dRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q9uuQ/F3j0aS7pD8aiGOd4dADBM+FYNuFEE2GjZTirc=
+			8fRMfsmoNvigZ164gTLIjyRIkrN1hqIgEGgOT1Q13nE=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/layout/LearnTabBar.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pFQ1/BM36dtlB9WlWiQi/Bce3Hw=
+			EmKSpOUl8T4sC3OndaaxnAoBflg=
 			</data>
 			<key>hash2</key>
 			<data>
-			0+o/ODKYecvVbr0zGNd//IAiRZcMmBtUIuCNXURIf/E=
+			yqZqlqc1D7JW2optXEndduATx/R9w+dcZHl0TVmsLug=
+			</data>
+		</dict>
+		<key>flutter_assets/lib/layout/learn_layout.dart</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Sbl3oA1TrCsN+yZb11qoHRQboKU=
+			</data>
+			<key>hash2</key>
+			<data>
+			4NxlFhKXye5LPUVicfp+eGbThFhdw+wqIOwa5jT5bPs=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/list/LearnExpansionPanelList.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GE+dE8rAIfkD1PFXUbvcupvrfjg=
+			NmwbG6X/Y0yQylNo6lMoEWyr5AA=
 			</data>
 			<key>hash2</key>
 			<data>
-			wOuHFd1hO+6ThdqFsO3IHg2HQRANfnd6/9ZkfXihfbo=
+			flZDkpOXEx+w3CPWybrT6ho9uNUrhwzjLHKMYEdYbUE=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/list/LearnGridView.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V46HP1eDujGdMbcfFiXroJBLb6I=
+			Z+JknBPk+aJkO5D97H6Cy7sRLus=
 			</data>
 			<key>hash2</key>
 			<data>
-			yxSoJdXSe/Ms+Mv12EXdJ9E/cX4sh5FgqLhrSY43nf4=
+			J9dtkCnkDbYskk73VzY7jKlEfMVLYAen+60JZ7/Dk0Q=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/list/LearnList.dart</key>
@@ -558,22 +562,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ipP07MP/elp7YTLn/AcpCJ05u0U=
+			vQ9AzoEuwWBBHvxwzhSjKNikvUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			1vnvvbkuZRTV+SVYlRzvy+yGibv9hxPhqitS3aAXYrI=
+			4lTWXRKWp/8WKIivHJLI7dL6XqjrH+3+mP8eZwxK5To=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/list/listview/LearnListView.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			icGZNuxccfayrvvXjORPYGXJpQQ=
+			TJujjHDWGiDd1DPlNQ5miAkwe3w=
 			</data>
 			<key>hash2</key>
 			<data>
-			/iQImOukAo++fuDLaHePvinl+aWlIVFcAoqSvIOitpU=
+			uM0ke+xz/NSSU8PGlDDHgjLTCTga3tUxOVa5t24lexQ=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/list/listview/LearnListViewChildPage.dart</key>
@@ -602,55 +606,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U9lN9z0G5UBm7Yd0v8ihjUexoRU=
+			xL+Bxi5BkzwhLJ7HIMAkMy/iaio=
 			</data>
 			<key>hash2</key>
 			<data>
-			yJp1HjvTxgYQVeAIKRUG1JvxdUlK6qfBoxRKKRv81h4=
+			OE/lEtklPRh/MQSahh70JkMQzQVFC2gz/0/3fYgmnsQ=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/maindrawer.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cpWi6SIVtk6b0Z31+4UiZKDa48Q=
+			dHYd+tk1/xZj4sbpo+fe/5+4zK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			OXEjYnGneAefqBbdstwPaYK57cnFn2Q5FZo4RuiJNgY=
+			7MGY1hWAC2mvVT2i9apT3jakkU9YVKN3RHEjBw42UtE=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/network/LearnHttp.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y/DHDJKZh9WBcL1bIf5EMPXNdss=
+			vx9a8ya7IXeaPisemPceCM9Xi1Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			kImHflic1WXD0Ffd08a6n/do/dPYw1+0rrngsrACu+M=
+			mracq7APTH5lYCWNQvgj5/bDf1UiuXP96271yBkdxog=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/network/LearnJsonAnalysis.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VR5xT3uSa9JQB+/bebpwTqkMLhk=
+			7H83b7AK5KUcNd0+j92L0mQ6IJ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			UB53guexse2nrSFwkGlT0+lhATkM15xuQTdxXi79VKA=
+			Mmm3ps/D7IdpO80SGLvzUBXcCkEqMq1//50Q6EU5/us=
 			</data>
 		</dict>
-		<key>flutter_assets/lib/network/LearnNetwork.dart</key>
+		<key>flutter_assets/lib/network/json_parsing_entity.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+4fVZc3+LUUdlLbIhwhAndwCg8U=
+			y3qT2r9C7lVDSn42Dd2CbLUymtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			800S1STWVlNCSkUjQW8DtMwpLR56yW4HPrAq8DcUZMk=
+			7bLB29JaiMO47eXwxvLdC5aS1mKu2qJs8zloeUfw7/E=
+			</data>
+		</dict>
+		<key>flutter_assets/lib/network/learn_network.dart</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HXip4oZQF460d9oYv7pqVnOVIw8=
+			</data>
+			<key>hash2</key>
+			<data>
+			oSJD9A2N4v6pyBP1T2sbEri0BAyfEXDmIIvZXc3m9XI=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/network/movie_list_entity.dart</key>
@@ -668,11 +683,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8qg+pbGj1Wv49mXzb2DzKui64WU=
+			j8bAf2oIyemBwlettjWOCfWxI7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZbKMTVzgW8vwdvDrlsJk6jlesirmDpWt/u8FPvmGPDg=
+			S/4qH4tlxPUA0sprHjUHmk9yQvOyQ9XKp6dJ9scHReY=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/refresh/LearnRefrsh.dart</key>
@@ -796,15 +811,15 @@
 			YcYdUcebB+J5s/m45xO+Nfj+v371nQBWZLhz6PsAAEc=
 			</data>
 		</dict>
-		<key>flutter_assets/lib/widgets/LearnWidgets.dart</key>
+		<key>flutter_assets/lib/widgets/learn_widgets.dart</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2GLzF9/HKRH9cNCLDqYk7axR6ak=
+			fdSaUkukHlzbQ9mKv2C9KurroxA=
 			</data>
 			<key>hash2</key>
 			<data>
-			gmLoMjN1fPxMpYtquhmEWhCkRt9qFe8qR9LBKHXcGbU=
+			8VL1AraQlrI4LcUzTP6kFZK2+7kqGleNYeSxsWmwjLQ=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

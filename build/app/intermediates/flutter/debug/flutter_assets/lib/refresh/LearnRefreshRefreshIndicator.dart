@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/commpage/CodePreview.dart';
+import '../comm/CommTitle.dart';
+import '../comm/page/CodePreview.dart';
 
 class LearnRefreshRefreshIndicator extends StatefulWidget {
   @override

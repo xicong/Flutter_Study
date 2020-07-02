@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:loading/indicator/ball_spin_fade_loader_indicator.dart';
 import 'package:loading/loading.dart';
 
-typedef RequestParsingData = Future<dynamic> Function();
-typedef ShowSuccessfulRequestWeight = Widget  Function(dynamic data);
+typedef AsynchronousTasks = Future<dynamic> Function();
+typedef AsynchronousResults = Widget  Function(dynamic data);
 class CallBack{
-  RequestParsingData requestParsing;
-  ShowSuccessfulRequestWeight showSuccessfulRequestWeight;
-  CallBack({this.requestParsing,this.showSuccessfulRequestWeight});
+  AsynchronousTasks asynchronousTasks;
+  AsynchronousResults asynchronousResults;
+  CallBack({this.asynchronousTasks,this.asynchronousResults});
 }
 
 class PageStatusWeight{
@@ -73,13 +73,13 @@ class PageStatusWeight{
   //异步请求
   Widget showRequestStatus(CallBack callBack){
     return new FutureBuilder(
-        future: callBack.requestParsing(),
+        future: callBack.asynchronousTasks(),
         builder:  (BuildContext context,AsyncSnapshot snapshot){
           if(snapshot.connectionState == ConnectionState.done){//请求已完成
             if(snapshot.hasError){//请求失败
               return showRequestError();
             }else{//请求成功
-              return callBack.showSuccessfulRequestWeight(snapshot.data);
+              return callBack.asynchronousResults(snapshot.data);
             }
            }else{//请求未结束
             return showRequestLoading();

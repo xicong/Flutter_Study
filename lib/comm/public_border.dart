@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
+//公用的一个边框
 class PublicBorder{
 
-  static Decoration blueRadiusDecoration() {
+  Decoration blueRadiusDecoration() {
     return new BoxDecoration(
         color: Colors.white,
         border: new Border.all(color: Colors.blue, width: 1.0),

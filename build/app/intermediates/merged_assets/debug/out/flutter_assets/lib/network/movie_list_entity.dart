@@ -1,5 +1,5 @@
-import 'package:Flutter_Study/generated/json/base/json_convert_content.dart';
-import 'package:Flutter_Study/generated/json/base/json_filed.dart';
+import '../generated/json/base/json_convert_content.dart';
+import '../generated/json/base/json_filed.dart';
 
 
 class MovieListEntity with JsonConvert<MovieListEntity> {

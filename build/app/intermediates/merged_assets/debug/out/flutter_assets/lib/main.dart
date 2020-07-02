@@ -1,19 +1,18 @@
 //导入dart
+import 'package:Flutter_Study/refresh/learn_refrsh.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/anim/LearnAnimation.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/dart_grammar_knowledge/Dart_Knowledge_List.dart';
-import 'package:Flutter_Study/dialog/LearnDialog.dart';
-import 'package:Flutter_Study/list/LearnList.dart';
-import 'package:Flutter_Study/layout/LearnLayout.dart';
-import 'package:Flutter_Study/maindrawer.dart';
-import 'package:Flutter_Study/network/LearnNetwork.dart';
-import 'package:Flutter_Study/refresh/LearnRefrsh.dart';
-import 'package:Flutter_Study/widgets/LearnWidgets.dart';
-import 'package:Flutter_Study/comm/CommListItem.dart';
 
-
+import 'anim/LearnAnimation.dart';
+import 'comm/CommListItem.dart';
+import 'comm/CommTitle.dart';
+import 'comm/page_status_weight.dart';
+import 'dart_grammar_knowledge/dart_knowledge_list.dart';
+import 'dialog/learn_dialog.dart';
+import 'layout/learn_layout.dart';
+import 'list/learn_list.dart';
+import 'maindrawer.dart';
+import 'network/learn_network.dart';
 
 void main() {
   //设置debugPaintSizeEnabled为true来更直观的调试布局问题
@@ -29,10 +28,8 @@ void main() {
   ));
 }
 
-/**
- * StatelessWidget 无状态控件 不可变状态控件 通过构建来描述界面的一部分
- * StatefulWidget 有状态控件
- */
+/// StatelessWidget 无状态控件 不可变状态控件 通过构建来描述界面的一部分
+/// StatefulWidget 有状态控件
 class Main extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -40,9 +37,7 @@ class Main extends StatelessWidget {
   }
 }
 
-/**
- * StatefulWidget 有状态控件
- */
+/// StatefulWidget 有状态控件
 class MainApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -51,36 +46,67 @@ class MainApp extends StatefulWidget {
 }
 
 class _MainApp extends State<MainApp> {
-  
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
 //        backgroundColor: ColorUtils.hexToColor("E3E3E3"),
       appBar: CommTitle.setHomeMaterialAppBar(context, "Flutter学习"),
       drawer: new maindrawer(),
-      body: new Builder(builder: (BuildContext context) {
-        return new ListView(
-//          itemExtent: 45, //强制设置item的高度
-          children: <Widget>[
-            CommListItem.setMaterialListItem(context, "Dart知识点",
-                "一些dart语法相关的知识点记录", new Dart_Knowledge_List()),
-            CommListItem.setMaterialListItem(
-                context, "Widgets", "Android的基础控件", new LearnWidgets()),
-            CommListItem.setMaterialListItem(
-                context, "Layout", "Android的各种布局控件", new LearnLayout()),
-            CommListItem.setMaterialListItem(
-                context, "dialog", "Android的各种Dialog", new LearnDialog()),
-            CommListItem.setMaterialListItem(
-                context, "List", "Android的各种列表", new LearnList()),
-            CommListItem.setMaterialListItem(
-                context, "Anim", "Android的各种动画", new LearnAnimation()),
-            CommListItem.setMaterialListItem(
-                context, "Refrsh", "Android的各种刷新", new LearnRefrsh()),
-            CommListItem.setMaterialListItem(
-                context, "Network", "Android的网络相关", new LearnNetwork()),
-          ],
-        );
-      }),
+      body: PageStatusWeight().showRequestStatus(CallBack(
+          asynchronousTasks: () {
+            return initData();
+          },
+          asynchronousResults: (data) {
+            return showResultWeight(data);
+          }
+      )),
     );
   }
+
+  Future<List<MainEntity>> initData() {
+    return Future<List<MainEntity>>(() {
+      return [
+        MainEntity(name: "Dart知识点",
+            description: "一些dart语法相关的知识点记录",
+            widget: DartKnowledgeList()),
+        MainEntity(name: "Widgets",
+            description: "Android的基础控件",
+            widget: LearnLayout()),
+        MainEntity(name: "Layout",
+            description: "Android的各种布局控件",
+            widget: LearnLayout()),
+        MainEntity(name: "Dialog",
+            description: "Android的各种Dialog",
+            widget: LearnDialog()),
+        MainEntity(
+            name: "List", description: "Android的各种列表", widget: LearnList()),
+        MainEntity(name: "Anim",
+            description: "Android的各种动画",
+            widget: LearnAnimation()),
+        MainEntity(
+            name: "Refrsh", description: "Android的各种刷新", widget: LearnRefrsh()),
+        MainEntity(name: "Network",
+            description: "Android的网络相关",
+            widget: LearnNetwork()),
+      ];
+    });
+  }
+
+  Widget showResultWeight(data) {
+    var mData = data as List<MainEntity>;
+    return new ListView.builder(
+        itemCount: mData.length,
+        itemBuilder: (context, index) {
+          return CommListItem.setMaterialListItem(
+              context, mData[index].name, mData[index].description, mData[index].widget);
+        });
+  }
 }
+
+class MainEntity {
+  String name;
+  String description;
+  Widget widget;
+  MainEntity({this.name, this.description, this.widget});
+}
+

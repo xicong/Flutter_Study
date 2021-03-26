@@ -1,25 +1,27 @@
-import 'package:Flutter_Study/comm/page/CodePreview.dart';
+import '../comm/page/CodePreview.dart';
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-class LearnDialogBottomShow extends StatefulWidget{
+import '../utils/title_utils.dart';
+
+class LearnDialogBottomShow extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return  _LearnDialogBottomShow();
+    return _LearnDialogBottomShow();
   }
 }
-class _LearnDialogBottomShow extends State<LearnDialogBottomShow>{
+
+class _LearnDialogBottomShow extends State<LearnDialogBottomShow> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "DialogBottom", new Callback(
-        codeOnTap: (){
-          CodePreview.go(context, "DialogBottom", "lib/dialog/LearnDialogBottomShow.dart");
-        }
-      )),
-      floatingActionButton:new Builder(builder: (BuildContext context){
-        return new FloatingActionButton(
-          onPressed: (){
-            /*  showDialog(
+        appBar: CommTitle.setMaterialAppBar(context, "DialogBottom",
+            new Callback(codeOnTap: () {
+          CodePreview.go(
+              context, "DialogBottom", "lib/dialog/LearnDialogBottomShow.dart");
+        })),
+        floatingActionButton: new Builder(builder: (BuildContext context) {
+          return new FloatingActionButton(
+            onPressed: () {
+              /*  showDialog(
               context: context,
 //              child: new SimpleDialog(
 //                contentPadding: EdgeInsets.all(10.0),
@@ -52,7 +54,6 @@ class _LearnDialogBottomShow extends State<LearnDialogBottomShow>{
 
             );*/
 
-
 //          showBottomSheet(
 //              context: context,
 //              builder:(BuildContext context){
@@ -68,40 +69,37 @@ class _LearnDialogBottomShow extends State<LearnDialogBottomShow>{
 //              }
 //          );
 
-            showModalBottomSheet(
+              showModalBottomSheet(
 //            showBottomSheet(
-                context: context,
-                builder: (BuildContext context) {
-                  return new Container(
-                      child: new Padding(
-                          padding: const EdgeInsets.all(10.0),
-                          child: new Column(
-                            children: <Widget>[
-                              new ListTile(
-                                leading: new Icon(Icons.chat),
-                                title: new Text("开始会话"),
-                              ),
-                              new ListTile(
-                                leading: new Icon(Icons.help),
-                                title: new Text("操作说明"),
-                              ),
-                              new ListTile(
-                                leading: new Icon(Icons.settings),
-                                title: new Text("系统设置"),
-                              ),
-                              new ListTile(
-                                leading: new Icon(Icons.more),
-                                title: new Text("更多设置"),
-                              ),
-                            ],
-                          ))
-                  );
-                });
-
-          },
-          child: new Icon(Icons.add),
-        );
-      })
-    );
+                  context: context,
+                  builder: (BuildContext context) {
+                    return new Container(
+                        child: new Padding(
+                            padding: const EdgeInsets.all(10.0),
+                            child: new Column(
+                              children: <Widget>[
+                                new ListTile(
+                                  leading: new Icon(Icons.chat),
+                                  title: new Text("开始会话"),
+                                ),
+                                new ListTile(
+                                  leading: new Icon(Icons.help),
+                                  title: new Text("操作说明"),
+                                ),
+                                new ListTile(
+                                  leading: new Icon(Icons.settings),
+                                  title: new Text("系统设置"),
+                                ),
+                                new ListTile(
+                                  leading: new Icon(Icons.more),
+                                  title: new Text("更多设置"),
+                                ),
+                              ],
+                            )));
+                  });
+            },
+            child: new Icon(Icons.add),
+          );
+        }));
   }
 }

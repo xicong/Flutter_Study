@@ -1,15 +1,15 @@
-import 'package:Flutter_Study/comm/page_status_weight.dart';
-import 'package:Flutter_Study/main.dart';
+import '../utils/page_status_weight_utils.dart';
+import '../main.dart';
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/dialog/LearnAboutDialog.dart';
-import 'package:Flutter_Study/dialog/LearnAlertDialog.dart';
-import 'package:Flutter_Study/dialog/LearnCupertinoAlertDialog.dart';
-import 'package:Flutter_Study/dialog/LearnCupertinoFullscreenDialogTransition.dart';
-import 'package:Flutter_Study/dialog/LearnDropdownButton.dart';
-import 'package:Flutter_Study/dialog/LearnDialogBottomShow.dart';
-import 'package:Flutter_Study/comm/CommListItem.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/dialog/LearnSimpleDialog.dart';
+import '../dialog/learn_about_dialog.dart';
+import '../dialog/LearnAlertDialog.dart';
+import '../dialog/LearnCupertinoAlertDialog.dart';
+import '../dialog/LearnCupertinoFullscreenDialogTransition.dart';
+import '../dialog/LearnDropdownButton.dart';
+import '../dialog/LearnDialogBottomShow.dart';
+import '../utils/listitem_utils.dart';
+import '../utils/title_utils.dart';
+import '../dialog/learn_simple_dialog.dart';
 
 //各种Dialog
 class LearnDialog extends StatefulWidget {
@@ -23,16 +23,13 @@ class _LearnDialog extends State<LearnDialog> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "各种Dialog", null),
-      body: PageStatusWeight().showRequestStatus(CallBack(
-          asynchronousTasks: () {
-            return initData();
-          },
-          asynchronousResults: (data) {
-            return showResultWeight(data);
-          }
-      ))
-    );
+        appBar: CommTitle.setMaterialAppBar(context, "各种Dialog", null),
+        body: PageStatusWeight()
+            .showRequestStatus(CallBack(asynchronousTasks: () {
+          return initData();
+        }, asynchronousResults: (data) {
+          return showResultWeight(data);
+        })));
   }
 
   Widget showResultWeight(data) {
@@ -48,29 +45,35 @@ class _LearnDialog extends State<LearnDialog> {
   Future<List<MainEntity>> initData() {
     return Future<List<MainEntity>>(() {
       return [
-        MainEntity(name: "AboutDialog",
+        MainEntity(
+            name: "AboutDialog",
             description: "一个关于App的弹窗",
             widget: LearnAboutDialog()),
-        MainEntity(name: "AlertDialog",
+        MainEntity(
+            name: "AlertDialog",
             description: "一个操作确认提示对话框",
             widget: LearnAlertDialog()),
-        MainEntity(name: "SimpleDialog",
+        MainEntity(
+            name: "SimpleDialog",
             description: "一个可供选择的对话框",
             widget: LearnSimpleDialog()),
-        MainEntity(name: "DialogBottom",
+        MainEntity(
+            name: "DialogBottom",
             description: "一个用来向用户传递信息的弹出窗",
             widget: LearnDialogBottomShow()),
-        MainEntity(name: "DropdownButton",
+        MainEntity(
+            name: "DropdownButton",
             description: "一个用于向用户传递信息的弹出层",
             widget: LearnDropdownButton()),
-        MainEntity(name: "CupertinoAlertDialog",
+        MainEntity(
+            name: "CupertinoAlertDialog",
             description: "一个ios风格的操作确认提示对话框",
             widget: LearnCupertinoAlertDialog()),
-        MainEntity(name: "CupertinoFullscreenDialogTransition",
+        MainEntity(
+            name: "CupertinoFullscreenDialogTransition",
             description: "一个ios全屏的对话框",
             widget: LearnCupertinoFullscreenDialogTransition()),
       ];
     });
   }
-
 }

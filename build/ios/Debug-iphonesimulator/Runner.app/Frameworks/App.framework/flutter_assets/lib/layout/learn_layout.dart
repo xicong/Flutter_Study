@@ -1,15 +1,15 @@
-import 'package:Flutter_Study/comm/page_status_weight.dart';
-import 'package:Flutter_Study/main.dart';
+import '../utils/page_status_weight_utils.dart';
+import '../main.dart';
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/layout/LearnStack.dart';
-import 'package:Flutter_Study/layout/LearnTabBar.dart';
-import 'package:Flutter_Study/comm/CommListItem.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/layout/LearnColumn.dart';
-import 'package:Flutter_Study/layout/LearnContainer.dart';
-import 'package:Flutter_Study/layout/LearnScaffold.dart';
-import 'package:Flutter_Study/layout/LearnRow.dart';
-import 'package:Flutter_Study/layout/LearnCupertinoTabView.dart';
+import '../layout/LearnStack.dart';
+import '../layout/LearnTabBar.dart';
+import '../utils/listitem_utils.dart';
+import '../utils/title_utils.dart';
+import '../layout/LearnColumn.dart';
+import '../layout/LearnContainer.dart';
+import '../layout/LearnScaffold.dart';
+import '../layout/LearnRow.dart';
+import '../layout/LearnCupertinoTabView.dart';
 
 import 'LearnCupertinoTabBar.dart';
 import 'LearnCupertinoTabScaffold.dart';

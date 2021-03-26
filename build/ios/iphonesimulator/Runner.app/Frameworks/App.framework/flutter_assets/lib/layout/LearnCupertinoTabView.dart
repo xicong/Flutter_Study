@@ -1,6 +1,5 @@
-import 'dart:ffi';
-import 'package:Flutter_Study/comm/page/CodePreview.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
+import '../comm/page/CodePreview.dart';
+import '../utils/title_utils.dart';
 import 'package:flutter/cupertino.dart';
 
 class LearnCupertinoTabView extends StatefulWidget {

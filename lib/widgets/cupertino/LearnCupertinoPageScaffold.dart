@@ -1,6 +1,6 @@
-import 'package:Flutter_Study/comm/CommTitle.dart';
+import 'package:Flutter_Study/utils/title_utils.dart';
 import 'package:Flutter_Study/comm/page/CodePreview.dart';
-import 'package:Flutter_Study/utils/ScreenUtils.dart';
+import 'package:Flutter_Study/utils/screen_utils.dart';
 import 'package:flutter/cupertino.dart';
 
 class LearnCupertinoPageScaffold extends StatefulWidget {

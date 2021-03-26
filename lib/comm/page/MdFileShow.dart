@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 
-import '../CommTitle.dart';
-import '../page_status_weight.dart';
+import '../../utils/title_utils.dart';
+import '../../utils/page_status_weight_utils.dart';
 
 class DartSet extends StatefulWidget {
   static go(BuildContext context, String title, String mdFilePath) {

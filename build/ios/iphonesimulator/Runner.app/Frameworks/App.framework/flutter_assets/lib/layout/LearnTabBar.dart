@@ -1,6 +1,6 @@
+import 'package:Flutter_Study/utils/title_utils.dart';
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/comm/page/CodePreview.dart';
+import '../comm/page/CodePreview.dart';
 
 class LearnTabBar extends StatefulWidget {
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/comm/page/CodePreview.dart';
+import '../utils/title_utils.dart';
+import '../comm/page/CodePreview.dart';
 
 class LearnScaffold extends StatefulWidget {
   @override

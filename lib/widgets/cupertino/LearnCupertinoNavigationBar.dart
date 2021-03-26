@@ -1,4 +1,4 @@
-import 'package:Flutter_Study/comm/CommTitle.dart';
+import 'package:Flutter_Study/utils/title_utils.dart';
 import 'package:Flutter_Study/comm/page/CodePreview.dart';
 import 'package:flutter/cupertino.dart';
 
@@ -45,7 +45,6 @@ class _LearnLearnCupertinoNavigationBar extends State<LearnCupertinoNavigationBa
           ),
           backgroundColor: CupertinoColors.activeBlue, //设置title栏的颜色
           padding: EdgeInsetsDirectional.only(start: 0,end: 0),  //设置标题栏行下左右的内边距
-          actionsForegroundColor: CupertinoColors.black,
         ),
         child: new ListView(
           children: <Widget>[

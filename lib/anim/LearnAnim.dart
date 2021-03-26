@@ -50,7 +50,6 @@ class _LearnAnim extends State<LearnAnim> with SingleTickerProviderStateMixin {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
     _animationController.dispose();
   }

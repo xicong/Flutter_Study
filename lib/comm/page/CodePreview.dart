@@ -2,8 +2,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../CommTitle.dart';
-import '../page_status_weight.dart';
+import '../../utils/title_utils.dart';
+import '../../utils/page_status_weight_utils.dart';
 
 /// 显示代码的公共页面
 class CodePreview extends StatefulWidget {

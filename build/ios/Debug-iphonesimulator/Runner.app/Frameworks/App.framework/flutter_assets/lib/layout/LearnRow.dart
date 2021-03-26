@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/comm/page/CodePreview.dart';
+import '../utils/title_utils.dart';
+import '../comm/page/CodePreview.dart';
 
-class LearnRow extends StatefulWidget{
+class LearnRow extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
@@ -10,22 +10,23 @@ class LearnRow extends StatefulWidget{
   }
 }
 
-class _LearnRow extends State<LearnRow>{
+class _LearnRow extends State<LearnRow> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return new Scaffold(
-      appBar: CommTitle.setMaterialAppBar(context, "Row", new Callback(
-        codeOnTap: (){
-          CodePreview.go(context, "Row", "lib/layout/LearnRow.dart");
-        }
-      )),
+      appBar: CommTitle.setMaterialAppBar(context, "Row",
+          new Callback(codeOnTap: () {
+        CodePreview.go(context, "Row", "lib/layout/LearnRow.dart");
+      })),
       body: new Row(
         children: <Widget>[
           new Container(
             alignment: Alignment.center,
             margin: EdgeInsets.all(10),
-            child: new Text("1",),
+            child: new Text(
+              "1",
+            ),
             color: Colors.blue,
             width: 50.0,
             height: 50.0,
@@ -33,7 +34,9 @@ class _LearnRow extends State<LearnRow>{
           new Container(
             alignment: Alignment.center,
             margin: EdgeInsets.all(10),
-            child: new Text("1",),
+            child: new Text(
+              "1",
+            ),
             color: Colors.blue,
             width: 50.0,
             height: 50.0,
@@ -41,7 +44,9 @@ class _LearnRow extends State<LearnRow>{
           new Container(
             alignment: Alignment.center,
             margin: EdgeInsets.all(10),
-            child: new Text("1",),
+            child: new Text(
+              "1",
+            ),
             color: Colors.blue,
             width: 50.0,
             height: 50.0,
@@ -50,5 +55,4 @@ class _LearnRow extends State<LearnRow>{
       ),
     );
   }
-
 }

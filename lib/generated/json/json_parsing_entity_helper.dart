@@ -2,10 +2,10 @@ import 'package:Flutter_Study/network/json_parsing_entity.dart';
 
 jsonParsingEntityFromJson(JsonParsingEntity data, Map<String, dynamic> json) {
 	if (json['name'] != null) {
-		data.name = json['name']?.toString();
+		data.name = json['name'].toString();
 	}
 	if (json['email'] != null) {
-		data.email = json['email']?.toString();
+		data.email = json['email'].toString();
 	}
 	return data;
 }

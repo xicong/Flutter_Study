@@ -1,4 +1,4 @@
-import 'package:Flutter_Study/comm/CommTitle.dart';
+import 'package:Flutter_Study/utils/title_utils.dart';
 import 'package:Flutter_Study/comm/page/CodePreview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

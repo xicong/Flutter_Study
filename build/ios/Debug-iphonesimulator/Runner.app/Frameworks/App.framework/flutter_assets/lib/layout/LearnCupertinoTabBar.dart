@@ -1,6 +1,5 @@
-import 'dart:ffi';
-import 'package:Flutter_Study/comm/page/CodePreview.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
+import '../comm/page/CodePreview.dart';
+import '../utils/title_utils.dart';
 import 'package:flutter/cupertino.dart';
 
 class LearnCupertinoTabBar extends StatefulWidget {
@@ -29,20 +28,19 @@ class _LearnCupertinoTabBar extends State<LearnCupertinoTabBar> {
           return CupertinoTabView(
             builder: (BuildContext context) {
               return CupertinoPageScaffold(
-                navigationBar:
-                    CommTitle.setCupertinoNavigationBar(rootcontext, "CupertinoTabBar$index",new Callback(
-                      codeOnTap: (){
-                        CodePreview.tabGo(context, "CupertinoTabBar", "lib/layout/LearnCupertinoTabBar.dart");
-                      }
-                    )),
+                navigationBar: CommTitle.setCupertinoNavigationBar(
+                    rootcontext, "CupertinoTabBar$index",
+                    new Callback(codeOnTap: () {
+                  CodePreview.tabGo(context, "CupertinoTabBar",
+                      "lib/layout/LearnCupertinoTabBar.dart");
+                })),
                 child: new Center(
                   child: CupertinoButton(
                       child: new Text('我是页面$index'),
                       borderRadius:
                           new BorderRadius.all(new Radius.circular(5)),
                       color: CupertinoColors.activeBlue,
-                      onPressed: () {
-                      }),
+                      onPressed: () {}),
                 ),
               );
             },

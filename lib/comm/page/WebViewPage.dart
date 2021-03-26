@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:progress_dialog/progress_dialog.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import '../CommTitle.dart';
+import '../../utils/title_utils.dart';
 
 class WebViewPage extends StatefulWidget {
   String url;

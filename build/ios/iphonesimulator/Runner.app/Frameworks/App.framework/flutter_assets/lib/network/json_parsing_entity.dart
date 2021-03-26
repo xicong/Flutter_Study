@@ -1,4 +1,4 @@
-import 'package:Flutter_Study/generated/json/base/json_convert_content.dart';
+import '../generated/json/base/json_convert_content.dart';
 
 class JsonParsingEntity with JsonConvert<JsonParsingEntity> {
 	String name;

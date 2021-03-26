@@ -1,8 +1,8 @@
-import 'package:Flutter_Study/comm/page/CodePreview.dart';
+import '../comm/page/CodePreview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
+import '../utils/title_utils.dart';
 
 class LearnCupertinoFullscreenDialogTransition extends StatefulWidget {
   @override
@@ -55,9 +55,11 @@ class _LearnCupertinoFullscreenDialogTransition
                       builder: (BuildContext context) {
                         return new CupertinoFullscreenDialogTransition(
                           child: new Scaffold(
-                            body: new Image.network(
-                            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3104782390,412364191&fm=26&gp=0.jpg",)
-                          ),
+                              body: new Image.network(
+                                  "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3104782390,412364191&fm=26&gp=0.jpg")),
+                          primaryRouteAnimation: null,
+                          secondaryRouteAnimation: null,
+                          linearTransition: true,
 //                          animation: Tween<double>(  // 该参数必须传，不然会报错
 //                            begin: 0.0,
 //                            end: 1.0,

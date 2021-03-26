@@ -1,6 +1,6 @@
-import 'package:Flutter_Study/comm/page/CodePreview.dart';
+import '../comm/page/CodePreview.dart';
 import 'package:flutter/material.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
+import '../utils/title_utils.dart';
 
 class LearnAlertDialog extends StatefulWidget {
   @override

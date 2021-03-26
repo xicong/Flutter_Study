@@ -1,9 +1,9 @@
-import 'package:Flutter_Study/comm/page/CodePreview.dart';
+import '../comm/page/CodePreview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:Flutter_Study/comm/CommTitle.dart';
-import 'package:Flutter_Study/utils/ToastUtils.dart';
+import '../utils/title_utils.dart';
+import '../utils/toast_utils.dart';
 
 class LearnCupertinoAlertDialog extends StatefulWidget {
   @override

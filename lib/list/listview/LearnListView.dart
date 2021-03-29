@@ -1,5 +1,5 @@
-import 'package:Flutter_Study/utils/title_utils.dart';
-import 'package:Flutter_Study/comm/page/CodePreview.dart';
+import 'package:flutter_study/utils/title_utils.dart';
+import 'package:flutter_study/comm/page/CodePreview.dart';
 import 'package:flutter/material.dart';
 
 import 'LearnListViewChildPage.dart';

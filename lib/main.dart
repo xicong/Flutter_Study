@@ -1,9 +1,8 @@
 //导入dart
-import 'package:Flutter_Study/refresh/learn_refrsh.dart';
-import 'package:Flutter_Study/widgets/learn_widgets.dart';
-import 'package:banners/banners.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_study/refresh/learn_refrsh.dart';
+import 'package:flutter_study/widgets/learn_widgets.dart';
 import 'anim/learn_animation.dart';
 import 'utils/listitem_utils.dart';
 import 'utils/title_utils.dart';
@@ -65,7 +64,6 @@ class _MainApp extends State<MainApp> {
   Future<List<MainEntity>> initData() {
     return Future<List<MainEntity>>(() {
       return [
-        BannerScaffold
         MainEntity(
             name: "Dart知识点",
             description: "一些dart语法相关的知识点记录",

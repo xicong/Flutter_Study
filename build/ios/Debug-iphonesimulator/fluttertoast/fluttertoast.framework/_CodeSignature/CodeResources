@@ -6,15 +6,11 @@
 	<dict>
 		<key>Headers/FluttertoastPlugin.h</key>
 		<data>
-		rcbvqG7+kzm0vKcObbCgrC2zrUQ=
-		</data>
-		<key>Headers/UIView+Toast.h</key>
-		<data>
-		QfW0Sg0rMFiQDa8lAv0Z89/3yPQ=
+		qUPGAZzKoID877n2Vj9gibU16yw=
 		</data>
 		<key>Headers/fluttertoast-umbrella.h</key>
 		<data>
-		sAw/MGVol1yVCxuYnDiZDX0cgJM=
+		LiYOawBMpK5GplNIp1HhKdwKmRQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -31,33 +27,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rcbvqG7+kzm0vKcObbCgrC2zrUQ=
+			qUPGAZzKoID877n2Vj9gibU16yw=
 			</data>
 			<key>hash2</key>
 			<data>
-			qR56GiDf9Vjt7bnSqpthz7SNhR9y2vSehMIQu/XUsYw=
-			</data>
-		</dict>
-		<key>Headers/UIView+Toast.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QfW0Sg0rMFiQDa8lAv0Z89/3yPQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			K7uOdcx63LR2sD4X0DWsUsIjnCkEkVWbanilkUdNaGU=
+			iVe+FN0oFfBKNjU5uyZroJvY7L8nWygO1+ydIeTAGXM=
 			</data>
 		</dict>
 		<key>Headers/fluttertoast-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sAw/MGVol1yVCxuYnDiZDX0cgJM=
+			LiYOawBMpK5GplNIp1HhKdwKmRQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			vAoB0zQJUilXB4Wxe51LjL+E7GfY6cXohrbFpuxt9SM=
+			R+W4sGPyYfQW1aBdJdZhtcBmOL7gva7XllhaA8xsOTA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

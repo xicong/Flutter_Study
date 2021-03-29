@@ -1,6 +1,5 @@
-import 'dart:ffi';
-import 'package:Flutter_Study/utils/title_utils.dart';
-import 'package:Flutter_Study/comm/page/CodePreview.dart';
+import 'package:flutter_study/utils/title_utils.dart';
+import 'package:flutter_study/comm/page/CodePreview.dart';
 import 'package:flutter/cupertino.dart';
 
 class LearnCupertinoPageRoute extends StatefulWidget {
@@ -130,13 +129,13 @@ class _LearnCupertinoPageRoute extends State<LearnCupertinoPageRoute> {
                       onPressed: () {
                         if (index == 1) {
                           Navigator.of(context, rootNavigator: true)
-                              .push(CupertinoPageRoute<Void>(
+                              .push(CupertinoPageRoute(
                                   maintainState: false, //是否将前一个路由保存在内存中
                                   builder: (BuildContext context) {
                                     return pageRouteHome(context);
                                   }));
                         } else {
-                          Navigator.of(context).push(CupertinoPageRoute<Void>(
+                          Navigator.of(context).push(CupertinoPageRoute(
                               maintainState: false, //是否将前一个路由保存在内存中
                               builder: (BuildContext context) {
                                 return pageRouteMine(context);

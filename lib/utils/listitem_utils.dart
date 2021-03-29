@@ -1,7 +1,6 @@
-
-import 'package:Flutter_Study/utils/style_utils.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_study/utils/style_utils.dart';
 
 //typedef ItemOnTap = Function();
 //class CallBack{

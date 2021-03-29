@@ -1,5 +1,5 @@
-import 'package:Flutter_Study/utils/title_utils.dart';
-import 'package:Flutter_Study/utils/screen_utils.dart';
+import 'package:flutter_study/utils/title_utils.dart';
+import 'package:flutter_study/utils/screen_utils.dart';
 import 'package:flutter/material.dart';
 
 class LearnMaterialPageRouteWithParameters extends StatefulWidget {

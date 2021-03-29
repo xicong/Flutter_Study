@@ -1,4 +1,4 @@
-import 'package:Flutter_Study/utils/page_status_weight_utils.dart';
+import 'package:flutter_study/utils/page_status_weight_utils.dart';
 import 'package:flutter/material.dart';
 import '../list/LearnExpansionPanelList.dart';
 import '../list/LearnGridView.dart';

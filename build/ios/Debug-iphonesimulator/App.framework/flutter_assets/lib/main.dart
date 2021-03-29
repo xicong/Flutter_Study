@@ -1,7 +1,8 @@
 //导入dart
-import 'package:Flutter_Study/refresh/learn_refrsh.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_study/refresh/learn_refrsh.dart';
+import 'package:flutter_study/widgets/learn_widgets.dart';
 import 'anim/learn_animation.dart';
 import 'utils/listitem_utils.dart';
 import 'utils/title_utils.dart';
@@ -70,7 +71,7 @@ class _MainApp extends State<MainApp> {
         MainEntity(
             name: "Widgets",
             description: "Android的基础控件",
-            widget: LearnLayout()),
+            widget: LearnWidgets()),
         MainEntity(
             name: "Layout",
             description: "Android的各种布局控件",

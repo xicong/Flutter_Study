@@ -1,4 +1,6 @@
-import 'package:Flutter_Study/network/article_list_entity.dart';
+
+
+import 'package:flutter_study/network/article_list_entity.dart';
 
 articleListEntityFromJson(ArticleListEntity data, Map<String, dynamic> json) {
 	if (json['data'] != null) {

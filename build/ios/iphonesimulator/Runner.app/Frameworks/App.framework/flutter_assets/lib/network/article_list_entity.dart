@@ -1,4 +1,4 @@
-import 'package:Flutter_Study/generated/json/base/json_convert_content.dart';
+import 'package:flutter_study/generated/json/base/json_convert_content.dart';
 
 class ArticleListEntity with JsonConvert<ArticleListEntity> {
 	ArticleListData data;

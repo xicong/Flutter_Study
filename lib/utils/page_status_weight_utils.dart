@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:loading/indicator/ball_spin_fade_loader_indicator.dart';
 import 'package:loading/loading.dart';
+import 'package:loading/indicator/ball_spin_fade_loader_indicator.dart';
 
 typedef AsynchronousTasks = Future<dynamic> Function();
 typedef AsynchronousResults = Widget  Function(dynamic data);

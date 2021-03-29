@@ -1,4 +1,4 @@
-import 'package:Flutter_Study/network/json_parsing_entity.dart';
+import 'package:flutter_study/network/json_parsing_entity.dart';
 
 jsonParsingEntityFromJson(JsonParsingEntity data, Map<String, dynamic> json) {
 	if (json['name'] != null) {

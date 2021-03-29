@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:Flutter_Study/comm/page/WebViewPage.dart';
-import 'package:Flutter_Study/utils/style_utils.dart';
+import 'package:flutter_study/comm/page/WebViewPage.dart';
+import 'package:flutter_study/utils/style_utils.dart';
 import '../utils/title_utils.dart';
 import '../utils/page_status_weight_utils.dart';
 import '../comm/page/CodePreview.dart';

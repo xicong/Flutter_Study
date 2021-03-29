@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:Flutter_Study/utils/style_utils.dart';
+import 'package:flutter_study/utils/style_utils.dart';
 import '../utils/page_status_weight_utils.dart';
 import '../network/json_parsing_entity.dart';
 import 'package:flutter/material.dart';

@@ -1,12 +1,13 @@
 import 'dart:convert';
-import 'package:Flutter_Study/utils/style_utils.dart';
-
+import 'package:flutter_study/comm/page/WebViewPage.dart';
+import 'package:flutter_study/utils/style_utils.dart';
 import '../utils/title_utils.dart';
 import '../utils/page_status_weight_utils.dart';
 import '../comm/page/CodePreview.dart';
 import '../network/article_list_entity.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:flustars/flustars.dart';
 
 //用豆瓣开放api获取电影列表
 class LearnHttp extends StatefulWidget {
@@ -38,66 +39,58 @@ class _LearnHttp extends State<LearnHttp> {
     return ListView.builder(
         itemCount: articleList.length,
         itemBuilder: (context, index) {
-          return new Container(
-            decoration: StyleUtils.blueRadiusDecoration(),
-            margin: EdgeInsets.all(10),
-            padding: EdgeInsets.all(10),
-            child: new Row(
-              children: <Widget>[
-                // Image.network(
-                //   articleList[index].casts[0].avatars.small,
-                //   width: 110,
-                //   height: 150,
-                // ),
-                new Expanded(
-                    child: new Column(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                  children: <Widget>[
-                    Text(
-                      articleList[index].title,
-                      softWrap: true,
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                      textAlign: TextAlign.left,
-                      style: new TextStyle(color: Colors.black),
-                    ),
-                    // Text(
-                    //   articleList[index].durations[0],
-                    //   softWrap: true,
-                    //   maxLines: 1,
-                    //   overflow: TextOverflow.ellipsis,
-                    //   textAlign: TextAlign.left,
-                    //   style: new TextStyle(color: Colors.black),
-                    // ),
-                    // Text(
-                    //   movieList[index].mainlandPubdate,
-                    //   softWrap: true,
-                    //   maxLines: 1,
-                    //   overflow: TextOverflow.ellipsis,
-                    //   textAlign: TextAlign.left,
-                    //   style: new TextStyle(color: Colors.black),
-                    // ),
-                    // Text(
-                    //   movieList[index].subtype,
-                    //   softWrap: true,
-                    //   maxLines: 1,
-                    //   overflow: TextOverflow.ellipsis,
-                    //   textAlign: TextAlign.left,
-                    //   style: new TextStyle(color: Colors.black),
-                    // ),
-                    // Text(
-                    //   movieList[index].year,
-                    //   softWrap: true,
-                    //   maxLines: 1,
-                    //   overflow: TextOverflow.ellipsis,
-                    //   textAlign: TextAlign.left,
-                    //   style: new TextStyle(color: Colors.black),
-                    // ),
-                  ],
-                ))
-              ],
+          return new InkWell(
+            child: new Container(
+              decoration: StyleUtils.blueRadiusDecoration(),
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: new Row(
+                children: <Widget>[
+                  new Expanded(
+                      child: new Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(
+                        articleList[index].title,
+                        softWrap: true,
+                        //是否允许换行 false 表示 只显示一行，如果设置了 maxLines 此属性失效
+                        // maxLines: 1,
+                        // overflow: TextOverflow.ellipsis,
+                        textAlign: TextAlign.left,
+                        style: new TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                        ),
+                      ),
+                      Text(
+                        "分享人: ${articleList[index].shareUser}",
+                        softWrap: true,
+                        //是否可以换行
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        textAlign: TextAlign.left,
+                        style: new TextStyle(color: Colors.black),
+                      ),
+                      Text(
+                        "分享时间: ${DateUtil.getDateTimeByMs(articleList[index].shareDate)}",
+                        softWrap: true,
+                        //是否可以换行
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        textAlign: TextAlign.left,
+                        style: new TextStyle(color: Colors.black),
+                      ),
+                    ],
+                  ))
+                ],
+              ),
             ),
+            onTap: () {
+              WebViewPage.go(
+                  context, articleList[index].title, articleList[index].link);
+            },
           );
         });
   }

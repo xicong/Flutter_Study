@@ -1,7 +1,7 @@
-import 'package:Flutter_Study/utils/style_utils.dart';
+import 'package:flutter_study/utils/style_utils.dart';
 import 'package:flutter/material.dart';
 import 'dart:io';
-import 'package:Flutter_Study/utils/user_info_sp_utils.dart';
+import 'package:flutter_study/utils/user_info_sp_utils.dart';
 import 'package:image_picker/image_picker.dart';
 
 class MainDrawerUserInfo extends StatefulWidget {

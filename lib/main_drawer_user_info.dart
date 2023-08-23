@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_study/utils/toast_utils.dart';
 import 'package:flutter_study/utils/user_info_sp_utils.dart';
 import 'package:image_picker/image_picker.dart';
-import 'net_image_address.dart';
 
 class MainDrawerUserInfo extends StatefulWidget {
   const MainDrawerUserInfo({Key? key}) : super(key: key);
@@ -75,7 +74,7 @@ class _MainDrawerUserInfo extends State<MainDrawerUserInfo> {
   //拍照
   final picker = ImagePicker();
   Future getCamera() async {
-    final pickedFile = await picker.getImage(source: ImageSource.camera);
+    final pickedFile = await picker.pickImage(source: ImageSource.camera);
     if(pickedFile?.path.isNotEmpty == true){
       UserInfoSpUtils.saveUserHeadImg(pickedFile!.path);
       updateHeadImage();
@@ -84,7 +83,7 @@ class _MainDrawerUserInfo extends State<MainDrawerUserInfo> {
 
   //相册
   Future getGallery() async {
-    final pickedFile = await picker.getImage(source: ImageSource.gallery);
+    final pickedFile = await picker.pickImage(source: ImageSource.gallery);
     if(pickedFile?.path.isNotEmpty == true){
       UserInfoSpUtils.saveUserHeadImg(pickedFile!.path);
       updateHeadImage();
@@ -140,7 +139,7 @@ class _MainDrawerUserInfo extends State<MainDrawerUserInfo> {
       ),
       onDetailsPressed: () {
 //      当 accountName 或者 accountEmail 被点击的时候所触发的回调函数，可以用来显示其他额外的信息
-        ToastUtils.show("被点击了",context);
+        showToast(context,"被点击了");
       },
     );
   }

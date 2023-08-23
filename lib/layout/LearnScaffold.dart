@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_study/net_image_address.dart';
+import '../utils/snackbar_utils.dart';
 import '../utils/title_utils.dart';
 import '../comm/page/CodePreview.dart';
 
@@ -47,12 +48,10 @@ class _LearnScaffold extends State<LearnScaffold> {
                 Navigator.pop(context);
               },
               onLongPress: () {
-                Scaffold.of(context)
-                    .showSnackBar(const SnackBar(content: Text('长按')));
+                showSnackBar(context,"长按效果");
               },
               onDoubleTap: () {
-                Scaffold.of(context)
-                    .showSnackBar(const SnackBar(content: Text('双击')));
+                showSnackBar(context,"双击效果");
               },
             );
           }),
@@ -92,9 +91,7 @@ class _LearnScaffold extends State<LearnScaffold> {
         ),
         body: Column(
           children:  <Widget>[
-            
             const Text("学习Scaffold"),
-            
             Builder(builder:(context)=>
               GestureDetector(
                 child: const Text("打开侧边栏"),
@@ -163,31 +160,7 @@ class _LearnScaffold extends State<LearnScaffold> {
             child: const Icon(Icons.access_alarm),
             //设置中间的小图标
             onPressed: () {
-              Scaffold.of(context).showSnackBar(
-                SnackBar(
-                  content: const Text('看你出来不'), //设置要提示的文字
-                  backgroundColor: Colors.red, //设置背景颜色
-                  duration: const Duration(
-                    //设置显示的时间
-                    days: 0,
-                    hours: 0,
-                    minutes: 1,
-                    milliseconds: 0,
-                    microseconds: 0,
-                  ),
-//                 animation: ,//设置显示的时候的动画 (动画等学习了再加以补充)
-                  action: SnackBarAction(
-                    label: "DIANJ", //按钮显示的内容
-                    onPressed: () {
-                      //点击之后触发的另一个事件
-                      if (kDebugMode) {
-                        print(
-                          '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&');
-                      }
-                    },
-                  ),
-                ),
-              );
+              showSnackBar(context, "SnackBar");
             },
           );
         }));

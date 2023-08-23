@@ -31,7 +31,7 @@ class _LearnMaterialButton extends State<LearnMaterialButton> {
           Container(
             margin: const EdgeInsets.only(left: 10, right: 10,top: 20,bottom: 20),
             child: MaterialButton(
-              color: Theme.of(context).accentColor,
+              color: Theme.of(context).colorScheme.secondary,
               onPressed: () {},
               child: Text(
                 "按钮0",
@@ -41,7 +41,7 @@ class _LearnMaterialButton extends State<LearnMaterialButton> {
           ),
           Container(
             margin: const EdgeInsets.only(left: 10, right: 10,top: 20,bottom: 20),
-            child: FlatButton.icon(
+            child: TextButton.icon(
               onPressed: () {},
               icon: const Icon(
                 Icons.timer,
@@ -51,14 +51,12 @@ class _LearnMaterialButton extends State<LearnMaterialButton> {
                 "按钮1",
                 style: textStyle,
               ),
-              color: Theme.of(context).accentColor,
             ),
           ),
           Container(
             margin: const EdgeInsets.only(left: 10, right: 10,top: 20,bottom: 20),
-            child: RaisedButton(
+            child: ElevatedButton(
               onPressed: () {},
-              color: Theme.of(context).accentColor,
               child: Text(
                 "按钮2",
                 style: textStyle,

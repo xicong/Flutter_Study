@@ -1,7 +1,6 @@
 import '../comm/page/CodePreview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import '../utils/title_utils.dart';
 import '../utils/toast_utils.dart';
 
@@ -38,14 +37,14 @@ class _LearnCupertinoAlertDialog extends State<LearnCupertinoAlertDialog> {
                                 child: Text("取消"),
                                 onPressed: (){
                                   Navigator.pop(context);
-                                  ToastUtils.show("取消",context);
+                                  showToast(context, "取消");
                                 },
                             ),
                             CupertinoDialogAction(
                               child: Text("确定"),
                               onPressed: (){
                                 Navigator.pop(context);
-                                ToastUtils.show("确定",context);
+                                showToast(context, "确定");
                               },
                             ),
                           ],

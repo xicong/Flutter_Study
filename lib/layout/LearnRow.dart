@@ -23,33 +23,33 @@ class _LearnRow extends State<LearnRow> {
         children: <Widget>[
           Container(
             alignment: Alignment.center,
-            margin: EdgeInsets.all(10),
-            child: Text(
-              "1",
-            ),
+            margin: const EdgeInsets.all(10),
             color: Colors.blue,
             width: 50.0,
             height: 50.0,
+            child: const Text(
+              "1",
+            ),
           ),
           Container(
             alignment: Alignment.center,
-            margin: EdgeInsets.all(10),
-            child: Text(
-              "1",
-            ),
+            margin: const EdgeInsets.all(10),
             color: Colors.blue,
             width: 50.0,
             height: 50.0,
+            child: const Text(
+              "1",
+            ),
           ),
           Container(
             alignment: Alignment.center,
-            margin: EdgeInsets.all(10),
-            child: Text(
-              "1",
-            ),
+            margin: const EdgeInsets.all(10),
             color: Colors.blue,
             width: 50.0,
             height: 50.0,
+            child: const Text(
+              "1",
+            ),
           ),
         ],
       ),

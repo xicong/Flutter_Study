@@ -21,38 +21,21 @@ class WebViewPage extends StatefulWidget {
 }
 
 class _WebViewPage extends State<WebViewPage> {
-  late WebViewController _controller; // web控制器
   String title = "title";
-  // late ProgressDialog progressDialog;
+  late WebViewController webViewController;
   @override
   void initState() {
+    webViewController = WebViewController()
+      ..setJavaScriptMode(JavaScriptMode.unrestricted)
+      ..loadRequest(Uri.parse('https://www.csdn.net/'));
     super.initState();
-    // progressDialog = ProgressDialog(context);
-    // progressDialog.style(
-    //   message: "数据加载中...",
-    // );
   }
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: CommTitle.setMaterialAppBar(context, title, null),
-        body: WebView(
-          initialUrl: widget.url,
-          javascriptMode: JavascriptMode.unrestricted, //js执行模式是否允许js执行
-          onWebViewCreated: (controller) {
-            _controller = controller;
-            // progressDialog.show();
-          },
-          onPageFinished: (url) {
-            _controller.evaluateJavascript("document.title").then((result) {
-              setState(() {
-                title = result;
-              });
-              // progressDialog.hide();
-            });
-          },
-        ),
+          body: WebViewWidget(controller: webViewController),
       ),
     );
   }

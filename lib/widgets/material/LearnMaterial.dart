@@ -10,9 +10,9 @@ class _LearnMaterial extends State<LearnMaterial>{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Material'),
+        title: const Text('Material'),
         leading: GestureDetector(
-          child: Icon(Icons.arrow_back_ios),
+          child: const Icon(Icons.arrow_back_ios),
           onTap: (){
             Navigator.pop(context);
           },
@@ -25,7 +25,7 @@ class _LearnMaterial extends State<LearnMaterial>{
             child: Material(
               color: Colors.blueAccent,
               shape: BeveledRectangleBorder(//斜角矩形边框
-                side:BorderSide(
+                side:const BorderSide(
                   width: 0.0,
                   color: Colors.blueAccent,
                   style: BorderStyle.none,
@@ -33,8 +33,8 @@ class _LearnMaterial extends State<LearnMaterial>{
                 borderRadius:BorderRadius.circular(65.0),
               ),
               child: Container(
-                padding: EdgeInsets.all(20.0),
-                child: Text('斜角矩形边框'),
+                padding: const EdgeInsets.all(20.0),
+                child: const Text('斜角矩形边框'),
               ),
             ),
           ),
@@ -42,7 +42,7 @@ class _LearnMaterial extends State<LearnMaterial>{
             child: Material(
               color: Colors.blueAccent,
               shape: BeveledRectangleBorder(//斜角矩形边框
-                side:BorderSide(
+                side:const BorderSide(
                   width: 1.0,
                   color: Colors.blueAccent,
                   style: BorderStyle.none,
@@ -50,15 +50,15 @@ class _LearnMaterial extends State<LearnMaterial>{
                 borderRadius:BorderRadius.circular(10.0),
               ),
               child: Container(
-                padding: EdgeInsets.all(20.0),
-                child: Text('斜角矩形边框'),
+                padding: const EdgeInsets.all(20.0),
+                child: const Text('斜角矩形边框'),
               ),
             ),
           ),
           Center(
             child: Material(
               color: Colors.blueAccent,
-              shape:BorderDirectional(
+              shape:const BorderDirectional(
                 start: BorderSide(
                   color: Colors.yellow,
                   width: 10.0,
@@ -77,23 +77,23 @@ class _LearnMaterial extends State<LearnMaterial>{
                 )
               ),
               child:Container(
-                padding: EdgeInsets.all(30.0),
-                child: Text('多彩边框'),
+                padding: const EdgeInsets.all(30.0),
+                child: const Text('多彩边框'),
               ),
             ),
           ),
           Center(
             child: Material(
               color: Colors.blueAccent,
-              shape: CircleBorder(
+              shape: const CircleBorder(
                 side: BorderSide(
                   color: Colors.yellow,
                   width: 10.0,
                 )
               ),
               child: Container(
-                padding: EdgeInsets.all(50.0),
-                child: Text('圆形边框'),
+                padding: const EdgeInsets.all(50.0),
+                child: const Text('圆形边框'),
               ),
             ),
           ),
@@ -101,7 +101,7 @@ class _LearnMaterial extends State<LearnMaterial>{
             child: Material(
               color: Colors.blueAccent,
               shape: RoundedRectangleBorder(
-                side: BorderSide(
+                side: const BorderSide(
                   color: Colors.purpleAccent,
                   width: 5.0,
                 ),
@@ -118,15 +118,15 @@ class _LearnMaterial extends State<LearnMaterial>{
               color: Colors.purpleAccent,
               elevation: 10.0,
               shadowColor: Colors.yellow,
-              shape: StadiumBorder(
+              shape: const StadiumBorder(
                 side: BorderSide(
                   color: Colors.brown,
                   width: 5.0,
                 )
               ),
               child: Container(
-                padding: EdgeInsets.all(30.0),
-                child: Text('体育场形状'),
+                padding: const EdgeInsets.all(30.0),
+                child: const Text('体育场形状'),
               ),
             ),
           )

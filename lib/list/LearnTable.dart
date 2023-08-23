@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../comm/page/CodePreview.dart';
-import '../utils/title_utils.dart';
 import '../utils/screen_utils.dart';
+import '../utils/title_utils.dart';
 
 class LearnTable extends StatefulWidget {
   @override
@@ -23,10 +23,10 @@ class _LearnTable extends State<LearnTable> {
           children: <Widget>[
             Container(
               alignment: Alignment.centerLeft,
-              width: ScreenUtils.getScreenWidth(context),
+              width: screenWidth(context),
               height: 50,
               color: Colors.black,
-              child: Text(
+              child: const Text(
                 "⚠️Table中每一行的列数需要一致，否则报错",
                 style: TextStyle(
                     color: Colors.white, fontWeight: FontWeight.bold),
@@ -35,7 +35,7 @@ class _LearnTable extends State<LearnTable> {
             Table(
               border:
                   TableBorder.all(width: 1.0, color: Colors.purpleAccent),
-              children: <TableRow>[
+              children: const <TableRow>[
                 TableRow(
                   children: <Widget>[
                     TableCell(

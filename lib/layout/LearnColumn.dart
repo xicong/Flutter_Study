@@ -33,39 +33,39 @@ class _LearnColumn extends State<LearnColumn> {
         children: <Widget>[
           Container(
             height: 50.0,
-            margin: EdgeInsets.all(10),
+            margin: const EdgeInsets.all(10),
             alignment: Alignment.center,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.blue,
             ),
-            child: Text("子元素1"),
+            child: const Text("子元素1"),
           ),
           Container(
             height: 50.0,
-            margin: EdgeInsets.all(10),
+            margin: const EdgeInsets.all(10),
             alignment: Alignment.center,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.blue,
             ),
-            child: Text("子元素1"),
+            child: const Text("子元素1"),
           ),
           Container(
             height: 50.0,
-            margin: EdgeInsets.all(10),
+            margin: const EdgeInsets.all(10),
             alignment: Alignment.center,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.blue,
             ),
-            child: Text("子元素1"),
+            child: const Text("子元素1"),
           ),
           Container(
             height: 50.0,
-            margin: EdgeInsets.all(10),
+            margin: const EdgeInsets.all(10),
             alignment: Alignment.center,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.blue,
             ),
-            child: Text("子元素1"),
+            child: const Text("子元素1"),
           ),
         ],
       ),

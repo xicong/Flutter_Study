@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_study/callback/PageStateCallBack.dart';
-// import 'package:loading/loading.dart';
-// import 'package:loading/indicator/ball_spin_fade_loader_indicator.dart';
 
 //页面状态  加载中  加载错误  加载成功   数据为空   加载出错
 class PageStatusWeight{
@@ -65,23 +63,19 @@ class PageStatusWeight{
     );
   }
   
-  //异步请求
+  //异步请求数据同步UI
   Widget showRequestStatus(PageStateCallBack callBack){
     return FutureBuilder(
-        future: callBack.asynchronousTasks(),
+        future: callBack.asynchronousTasks(),  //异步操作
         builder:  (BuildContext context,AsyncSnapshot snapshot){
-          if(snapshot.connectionState == ConnectionState.done){//请求已完成
-            if(snapshot.hasError){//请求失败
+          if(snapshot.connectionState == ConnectionState.waiting){//请求进行中
+              return showRequestLoading();
+           }else if(snapshot.hasError){//请求未结束
               return showRequestError();
-            }else{//请求成功
-              return callBack.asynchronousResults(snapshot.data);
-            }
-           }else{//请求未结束
-            return showRequestLoading();
+          }else{  //请求成功
+            return callBack.asynchronousResults(snapshot.data);
           }
         }
     );
   }
-  
-  
 }

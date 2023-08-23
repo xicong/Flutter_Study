@@ -1,6 +1,7 @@
 import 'package:flutter_study/utils/title_utils.dart';
-import 'package:flutter_study/utils/screen_utils.dart';
 import 'package:flutter/material.dart';
+
+import '../../utils/screen_utils.dart';
 
 class LearnMaterialPageRouteNoParameters extends StatefulWidget {
   @override
@@ -17,7 +18,11 @@ class _LearnMaterialPageRouteNoParameters
       appBar:
           CommTitle.setMaterialAppBar(context, "MaterialPageRoute不带参数跳转带新页面",null),
       body: Container(
-        child: Text(
+        width: screenWidth(context),
+        height: screenHeight(context),
+        color: Colors.blue,
+        alignment: Alignment.center,
+        child: const Text(
           "不带参数",
           style: TextStyle(
             color: Colors.white,
@@ -25,10 +30,6 @@ class _LearnMaterialPageRouteNoParameters
             fontSize: 30,
           ),
         ),
-        width: ScreenUtils.getScreenWidth(context),
-        height: ScreenUtils.getScreenHeight(context),
-        color: Colors.blue,
-        alignment: Alignment.center,
       ),
     );
   }

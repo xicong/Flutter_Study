@@ -1,6 +1,7 @@
 import 'package:flutter_study/utils/title_utils.dart';
-import 'package:flutter_study/utils/screen_utils.dart';
 import 'package:flutter/material.dart';
+
+import '../../utils/screen_utils.dart';
 
 class LearnMaterialPageRouteWithParameters extends StatefulWidget {
   String values;
@@ -20,17 +21,17 @@ class _LearnMaterialPageRouteWithParameters extends State<LearnMaterialPageRoute
     return Scaffold(
       appBar: CommTitle.setMaterialAppBar(context, "MaterialPageRoute带参数跳转带新页面",null),
       body: Container(
+        width: screenWidth(context),
+        height: screenHeight(context),
+        color: Colors.blue,
+        alignment: Alignment.center,
         child: Text("带参数:$value",
-          style: TextStyle(
+          style: const TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
             fontSize: 30,
           ),
         ),
-        width: ScreenUtils.getScreenWidth(context),
-        height: ScreenUtils.getScreenHeight(context),
-        color: Colors.blue,
-        alignment: Alignment.center,
       ),
     );
   }

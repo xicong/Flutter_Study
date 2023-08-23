@@ -24,12 +24,12 @@ class _LearnStack extends State<LearnStack> {
           Container(
             width: 150.0,
             height: 100.0,
-            decoration: BoxDecoration(color: Colors.blue),
+            decoration: const BoxDecoration(color: Colors.blue),
           ),
           Container(
             width: 120.0,
             height: 80.0,
-            decoration: BoxDecoration(color: Colors.red),
+            decoration: const BoxDecoration(color: Colors.red),
           )
         ],
       ),

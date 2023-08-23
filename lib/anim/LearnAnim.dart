@@ -1,5 +1,5 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_study/utils/print_utils.dart';
 import 'package:flutter_study/utils/title_utils.dart';
 
 //最基本的视线方法
@@ -27,9 +27,7 @@ class _LearnAnim extends State<LearnAnim> with SingleTickerProviderStateMixin {
     opennessAnimation = Tween(begin: 0.0, end: 1.0).animate(curvedAnimation);
     sizeAnimation = Tween(begin: 0.0, end: 300.0).animate(curvedAnimation)
       ..addListener(() {
-        if (kDebugMode) {
-          print(sizeAnimation.value);
-        }
+        showPrint(sizeAnimation.value);
         setState(() {
           data = sizeAnimation.value.toInt().toString();
         });
@@ -37,17 +35,17 @@ class _LearnAnim extends State<LearnAnim> with SingleTickerProviderStateMixin {
       ..addStatusListener((status) {
         switch (status) {
           case AnimationStatus.completed: //动画结束
-            print('动画结束');
+            showPrint('动画结束');
             _animationController.reverse();
             break;
           case AnimationStatus.dismissed: //动画消失
-            print('动画消失');
+            showPrint('动画消失');
             break;
           case AnimationStatus.forward: //重新执行
-            print('动画开始');
+            showPrint('动画开始');
             break;
           case AnimationStatus.reverse:
-            print('动画反转');
+            showPrint('动画反转');
             break;
         }
       });

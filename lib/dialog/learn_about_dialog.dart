@@ -1,6 +1,5 @@
 import '../comm/page/CodePreview.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import '../utils/title_utils.dart';
 
 class LearnAboutDialog extends StatefulWidget {

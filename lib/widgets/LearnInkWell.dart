@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_study/utils/title_utils.dart';
 
 import '../comm/page/CodePreview.dart';
+import '../utils/print_utils.dart';
 class LearnInkWell extends StatefulWidget{
   const LearnInkWell({Key? key}) : super(key: key);
   @override
@@ -24,9 +25,7 @@ class _LearnInkWell extends State<StatefulWidget>{
               color: Colors.yellow,
               child: InkWell(
                 onTap: (){
-                  if (kDebugMode) {
-                    print('###########################点击了##################################');
-                  }
+                  showPrint('###########################点击了##################################');
                 },
                 child: Container(//不要在这里设置背景色，for则会遮挡水波纹效果,如果设置的话尽量设置Material下面的color来实现背景色
                   width: 300.0,
@@ -42,9 +41,7 @@ class _LearnInkWell extends State<StatefulWidget>{
                 color: Colors.black,
                 child:InkWell(
                   onTap: (){
-                    if (kDebugMode) {
-                      print("@@@@@@@@@@@@@@@@@@@@@@@@@@@点击了@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-                    }
+                    showPrint("@@@@@@@@@@@@@@@@@@@@@@@@@@@点击了@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
                   },
                   child: const SizedBox(
                     width: 300.0,
@@ -72,9 +69,7 @@ class _LearnInkWell extends State<StatefulWidget>{
                 child: InkWell(
                   borderRadius:BorderRadius.circular(20.0),//给水波纹也设置同样的圆角
                   onTap: (){
-                    if (kDebugMode) {
-                      print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
-                    }
+                    showPrint('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
                   },
                   child: Container(
                     width: 300.0,
@@ -100,7 +95,7 @@ class _LearnInkWell extends State<StatefulWidget>{
                   splashColor: Colors.black,//水波纹的颜色
                   containedInkWell: true,//true表示要剪裁水波纹响应的界面   false不剪裁  如果控件是圆角不剪裁的话水波纹是矩形
                   onTap: (){
-                    print('！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！');
+                    showPrint('！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！');
                   },
                   child: Container(//1.不能在InkResponse的child容器内部设置装饰器颜色，否则会遮盖住水波纹颜色的，containedInkWell设置为false就能看到是否是遮盖了。
                     width: 300.0,
@@ -126,9 +121,7 @@ class _LearnInkWell extends State<StatefulWidget>{
 //                  splashColor: Colors.black,//水波纹的颜色
                   containedInkWell: true,//true表示要剪裁水波纹响应的界面   false不剪裁  如果控件是圆角不剪裁的话水波纹是矩形
                   onTap: (){
-                    if (kDebugMode) {
-                      print('！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！');
-                    }
+                    showPrint('！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！');
                   },
                   child: const SizedBox(//1.不能在InkResponse的child容器内部设置装饰器颜色，否则会遮盖住水波纹颜色的，containedInkWell设置为false就能看到是否是遮盖了。
                     width: 300.0,

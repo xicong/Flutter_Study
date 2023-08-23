@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_study/utils/snackbar_utils.dart';
 import '../comm/page/CodePreview.dart';
 import '../utils/title_utils.dart';
 class LearnTextField extends StatefulWidget{
@@ -97,7 +98,7 @@ class _LearnTextField extends State<StatefulWidget>{
                       ),
                     ),
                     onTap: (){
-                      Scaffold.of(context).showSnackBar(SnackBar(content:Text(textEditingController.text.toString())));
+                      showSnackBar(context, textEditingController.text.toString());
                     },
                   );
                 },

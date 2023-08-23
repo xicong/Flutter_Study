@@ -1,7 +1,7 @@
 import 'package:flutter_study/utils/title_utils.dart';
 import 'package:flutter_study/comm/page/CodePreview.dart';
-import 'package:flutter_study/utils/screen_utils.dart';
 import 'package:flutter/cupertino.dart';
+import '../../utils/screen_utils.dart';
 
 class LearnCupertinoPageScaffold extends StatefulWidget {
   @override
@@ -25,9 +25,9 @@ class _LearnCupertinoPageScaffold extends State<LearnCupertinoPageScaffold> {
           children: <Widget>[
             Container(
               alignment:Alignment.center,
-              child: Text("这是控件的内容部分"),
-              height: ScreenUtils.getScreenHeight(context),
+              height: screenHeight(context),
               color: CupertinoColors.activeOrange,
+              child: const Text("这是控件的内容部分"),
             ),
           ],
         ),

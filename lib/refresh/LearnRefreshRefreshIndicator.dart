@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import '../utils/print_utils.dart';
 import '../utils/title_utils.dart';
 import '../comm/page/CodePreview.dart';
 
@@ -21,10 +22,10 @@ class _LearnRefreshRefreshIndicator
     await Future.delayed(Duration(seconds: 1), () {
       //Future.delayed（）方法可以选择延迟处理任务
       setState(() {
-        print('开始刷新数据');
+        showPrint('开始刷新数据');
         itemCountData = 0;
         itemCountData = 6;
-        return null;
+        return;
       });
     });
   }
@@ -43,7 +44,7 @@ class _LearnRefreshRefreshIndicator
             itemCountData += 1;
             isLoadMore = false;
           });
-          print('开始加载更多数据');
+          showPrint('开始加载更多数据');
         }
       }
     });
@@ -69,12 +70,12 @@ class _LearnRefreshRefreshIndicator
         backgroundColor: Colors.blue,
         child: ListView.builder(
           itemBuilder: (BuildContext context, int index) {
-            print('$index');
+            showPrint('$index');
             if (index == itemCountData) {
               if (index == maxCountData) {
                 return Container(
                   padding: EdgeInsets.all(20.0),
-                  child: Center(
+                  child: const Center(
                     child: Text('全部加载完成'),
                   ),
                 );

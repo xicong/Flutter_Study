@@ -1,4 +1,3 @@
-import 'dart:io';
 ///网络图片地址
 class net_image_address{
 

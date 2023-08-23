@@ -45,7 +45,7 @@ class _LearnList extends State<LearnList> {
     return Future<List<MainEntity>>(() {
       return [
         MainEntity(
-            name: "ListView", description: "常见的滚动列表", widget: LearnListView()),
+            name: "ListView", description: "常见的滚动列表", widget: const LearnListView()),
         MainEntity(
             name: "ExpansionPanelList",
             description: "类似qq分组带展开折叠功能的列表",

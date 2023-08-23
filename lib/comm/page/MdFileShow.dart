@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-
 import '../../callback/PageStateCallBack.dart';
 import '../../utils/title_utils.dart';
 import '../../utils/page_status_weight_utils.dart';

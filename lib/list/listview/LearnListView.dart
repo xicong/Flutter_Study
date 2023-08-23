@@ -62,7 +62,7 @@ class _LearnListView extends State<StatefulWidget>
                   flex: 1,
                   child: Column(
                     children: <Widget>[
-                      Container(
+                      SizedBox(
                         height: 70.0,
                         child: Text.rich(
                           TextSpan(

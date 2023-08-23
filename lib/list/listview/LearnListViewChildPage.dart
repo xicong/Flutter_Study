@@ -13,7 +13,7 @@ class _LearnListViewChildPage extends State<LearnListViewChildPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CommTitle.setMaterialAppBar(context, "ListView的子页面", null),
-      body: Text("这是ListView的子页面"),
+      body: const Text("这是ListView的子页面"),
     );
   }
 }

@@ -12,54 +12,54 @@ class LearnDropdownButton extends StatefulWidget {
 class _LearnDropdownButton extends State<LearnDropdownButton> {
   List<DropdownMenuItem> getListData() {
     List<DropdownMenuItem> items = [];
-    DropdownMenuItem dropdownMenuItem1 = DropdownMenuItem(
-      child: Text('1'),
+    DropdownMenuItem dropdownMenuItem1 = const DropdownMenuItem(
       value: '1',
+      child: Text('1'),
     );
     items.add(dropdownMenuItem1);
-    DropdownMenuItem dropdownMenuItem2 = DropdownMenuItem(
-      child: Text('2'),
+    DropdownMenuItem dropdownMenuItem2 = const DropdownMenuItem(
       value: '2',
+      child: Text('2'),
     );
     items.add(dropdownMenuItem2);
-    DropdownMenuItem dropdownMenuItem3 = DropdownMenuItem(
-      child: Text('3'),
+    DropdownMenuItem dropdownMenuItem3 = const DropdownMenuItem(
       value: '3',
+      child: Text('3'),
     );
     items.add(dropdownMenuItem3);
-    DropdownMenuItem dropdownMenuItem4 = DropdownMenuItem(
-      child: Text('4'),
+    DropdownMenuItem dropdownMenuItem4 = const DropdownMenuItem(
       value: '4',
+      child: Text('4'),
     );
     items.add(dropdownMenuItem4);
-    DropdownMenuItem dropdownMenuItem5 = DropdownMenuItem(
-      child: Text('5'),
+    DropdownMenuItem dropdownMenuItem5 = const DropdownMenuItem(
       value: '5',
+      child: Text('5'),
     );
     items.add(dropdownMenuItem5);
-    DropdownMenuItem dropdownMenuItem6 = DropdownMenuItem(
-      child: Text('6'),
+    DropdownMenuItem dropdownMenuItem6 = const DropdownMenuItem(
       value: '6',
+      child: Text('6'),
     );
     items.add(dropdownMenuItem6);
-    DropdownMenuItem dropdownMenuItem7 = DropdownMenuItem(
-      child: Text('7'),
+    DropdownMenuItem dropdownMenuItem7 = const DropdownMenuItem(
       value: '7',
+      child: Text('7'),
     );
     items.add(dropdownMenuItem7);
-    DropdownMenuItem dropdownMenuItem8 = DropdownMenuItem(
-      child: Text('8'),
+    DropdownMenuItem dropdownMenuItem8 = const DropdownMenuItem(
       value: '8',
+      child: Text('8'),
     );
     items.add(dropdownMenuItem8);
-    DropdownMenuItem dropdownMenuItem9 = DropdownMenuItem(
-      child: Text('9'),
+    DropdownMenuItem dropdownMenuItem9 = const DropdownMenuItem(
       value: '9',
+      child: Text('9'),
     );
     items.add(dropdownMenuItem9);
-    DropdownMenuItem dropdownMenuItem10 = DropdownMenuItem(
-      child: Text('10'),
+    DropdownMenuItem dropdownMenuItem10 = const DropdownMenuItem(
       value: '10',
+      child: Text('10'),
     );
     items.add(dropdownMenuItem10);
     return items;
@@ -79,7 +79,7 @@ class _LearnDropdownButton extends State<LearnDropdownButton> {
         CodePreview.go(
             context, "DropdownButton", "lib/dialog/LearnDropdownButton.dart");
       })),
-      body: Column(
+      body: const Column(
         children: <Widget>[
 //           Center(
 //             child: DropdownButton(

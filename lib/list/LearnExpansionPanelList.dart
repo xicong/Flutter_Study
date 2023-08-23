@@ -33,7 +33,7 @@ class _LearnExpansionPanelList extends State<LearnExpansionPanelList> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Text('这是一个自带的，样子挺丑的吧'),
+            const Text('这是一个自带的，样子挺丑的吧'),
             ExpansionPanelList(
               expansionCallback: (panelIndex, isExpanded) {
                 setState(() {
@@ -60,7 +60,7 @@ class _LearnExpansionPanelList extends State<LearnExpansionPanelList> {
               //   );
               // }).toList(),
             ),
-            Text('拉一个好看点的吧，类似qq分组之类的'),
+            const Text('拉一个好看点的吧，类似qq分组之类的'),
 //            ListView.builder(
 //                itemBuilder: (BuildContext context, int index){
 //                  return ListTile(

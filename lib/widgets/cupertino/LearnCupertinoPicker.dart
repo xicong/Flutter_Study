@@ -232,15 +232,15 @@ class _LearnCupertinoPicker extends State<LearnCupertinoPicker> {
               ),
             ),
             Container(
-              margin: EdgeInsets.all(10),
+              margin: const EdgeInsets.all(10),
               child: CupertinoButton(
-                child: Text("Date",
+                child: const Text("Date",
                   style: TextStyle(
                       color: CupertinoColors.black
                   ),
                 ),
                 color: CupertinoColors.activeBlue,
-                borderRadius: BorderRadius.all(Radius.circular(5)),
+                borderRadius: const BorderRadius.all(Radius.circular(5)),
                 pressedOpacity: 0.5,
                 onPressed: (){
                   // _buildDatePicker(context);
@@ -248,7 +248,7 @@ class _LearnCupertinoPicker extends State<LearnCupertinoPicker> {
               ),
             ),
             Container(
-              margin: EdgeInsets.all(10),
+              margin: const EdgeInsets.all(10),
               child: CupertinoButton(
                 child: Text("Time",
                   style: TextStyle(
@@ -256,7 +256,7 @@ class _LearnCupertinoPicker extends State<LearnCupertinoPicker> {
                   ),
                 ),
                 color: CupertinoColors.activeBlue,
-                borderRadius: BorderRadius.all(Radius.circular(5)),
+                borderRadius: const BorderRadius.all(Radius.circular(5)),
                 pressedOpacity: 0.5,
                 onPressed: (){
                   // _buildTimePicker(context);

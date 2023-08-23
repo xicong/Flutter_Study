@@ -20,20 +20,11 @@ class _LearnContainer extends State<LearnContainer> {
       body: Container(
         width: 10.0,
         height: 10.0,
-        alignment: Alignment(0.0, 0.0),
-        //设置子控件的位置
-//      color: Colors.brown,
-        child: Text(
-          '这是一个Container',
-          textAlign: TextAlign.center, //设置文字居中
-          style: TextStyle(
-            color: Colors.black,
-          ),
-        ),
+        alignment: const Alignment(0.0, 0.0),
         //显示的内容
-        padding: EdgeInsets.all(0.0),
+        padding: const EdgeInsets.all(0.0),
         //设置子控件padding
-        margin: EdgeInsets.all(50.0),
+        margin: const EdgeInsets.all(50.0),
         //设置子控件margin
 //      foregroundDecoration:,  设置子控件上面的装饰
 //      constraints:  设置子控件尺寸约束的条件 比如 宽高
@@ -45,8 +36,8 @@ class _LearnContainer extends State<LearnContainer> {
               width: 10.0, //边框宽度
               color: Colors.green, //边框颜色
             ),
-            borderRadius: BorderRadius.all(Radius.circular(20.0)), //设置圆角
-            boxShadow: <BoxShadow>[
+            borderRadius: const BorderRadius.all(Radius.circular(20.0)), //设置圆角
+            boxShadow: const <BoxShadow>[
               //设置阴影
 //          BoxShadow(
 //            color: Colors.black,
@@ -65,6 +56,15 @@ class _LearnContainer extends State<LearnContainer> {
 //            blurRadius: 30.0,
 //          )
             ]),
+        //设置子控件的位置
+//      color: Colors.brown,
+        child: const Text(
+          '这是一个Container',
+          textAlign: TextAlign.center, //设置文字居中
+          style: TextStyle(
+            color: Colors.black,
+          ),
+        ),
       ),
     );
   }

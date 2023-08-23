@@ -25,9 +25,9 @@ class _LearnTabBar extends State<LearnTabBar> {
                     context, "TabBar", "lib/layout/LearnTabBar.dart");
               }))
             ],
-            title: Text("TabBar"),
+            title: const Text("TabBar"),
             leading: GestureDetector(
-              child: Icon(Icons.arrow_back_ios),
+              child: const Icon(Icons.arrow_back_ios),
               onTap: () {
                 Navigator.pop(context);
               },
@@ -48,7 +48,7 @@ class _LearnTabBar extends State<LearnTabBar> {
           body: TabBarView(
             children: choices.map((Choice c) {
               return Padding(
-                padding: EdgeInsets.all(10.0),
+                padding: const EdgeInsets.all(10.0),
                 child: Card(
                   elevation: 10.0,
                   child: Center(
@@ -63,7 +63,7 @@ class _LearnTabBar extends State<LearnTabBar> {
                         Text(
                           c.title,
                           style:
-                              TextStyle(color: Colors.blue, fontSize: 30.0),
+                              const TextStyle(color: Colors.blue, fontSize: 30.0),
                         ),
                       ],
                     ),
@@ -85,12 +85,12 @@ class Choice {
   final IconData icon;
 }
 
-const List<Choice> choices = const <Choice>[
-  const Choice(title: "CAR", icon: Icons.directions_car),
-  const Choice(title: "PRINT", icon: Icons.print),
-  const Choice(title: "ANDROID", icon: Icons.android),
-  const Choice(title: "MAP", icon: Icons.map),
-  const Choice(title: "PHONE", icon: Icons.phone),
-  const Choice(title: "ALARMS", icon: Icons.access_alarms),
-  const Choice(title: "BLUETOOTH", icon: Icons.bluetooth),
+const List<Choice> choices = <Choice>[
+  Choice(title: "CAR", icon: Icons.directions_car),
+  Choice(title: "PRINT", icon: Icons.print),
+  Choice(title: "ANDROID", icon: Icons.android),
+  Choice(title: "MAP", icon: Icons.map),
+  Choice(title: "PHONE", icon: Icons.phone),
+  Choice(title: "ALARMS", icon: Icons.access_alarms),
+  Choice(title: "BLUETOOTH", icon: Icons.bluetooth),
 ];

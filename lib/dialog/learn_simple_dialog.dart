@@ -1,7 +1,8 @@
+import 'package:flutter_study/utils/toast_utils.dart';
+
 import '../comm/page/CodePreview.dart';
 import 'package:flutter/material.dart';
 import '../utils/title_utils.dart';
-import '../utils/toast_utils.dart';
 
 class LearnSimpleDialog extends StatefulWidget {
   @override
@@ -29,33 +30,33 @@ class _LearnSimpleDialog extends State<LearnSimpleDialog> {
                       barrierDismissible: true, //点击外面是否可以关闭
                       builder: (context) {
                         return SimpleDialog(
-                          shape: RoundedRectangleBorder(
+                          shape: const RoundedRectangleBorder(
                               borderRadius:
                                   BorderRadius.all(Radius.circular(10))),
-                          title: Text("title"),
+                          title: const Text("title"),
                           children: <Widget>[
                             ListTile(
-                              leading: Icon(Icons.radio_button_unchecked),
-                              title: Text("男"),
+                              leading: const Icon(Icons.radio_button_unchecked),
+                              title: const Text("男"),
                               onTap: () {
                                 Navigator.pop(context);
-                                ToastUtils.show("男",context);
+                                showToast(context, "男");
                               },
                             ),
                             ListTile(
-                              leading: Icon(Icons.radio_button_unchecked),
-                              title: Text("女"),
+                              leading: const Icon(Icons.radio_button_unchecked),
+                              title: const Text("女"),
                               onTap: () {
                                 Navigator.pop(context);
-                                ToastUtils.show("女",context);
+                                showToast(context, "女");
                               },
                             ),
                             ListTile(
-                              leading: Icon(Icons.radio_button_unchecked),
-                              title: Text("未知"),
+                              leading: const Icon(Icons.radio_button_unchecked),
+                              title: const Text("未知"),
                               onTap: () {
                                 Navigator.pop(context);
-                                ToastUtils.show("未知",context);
+                                showToast(context,"未知");
                               },
                             ),
                           ],
@@ -72,12 +73,12 @@ class _LearnSimpleDialog extends State<LearnSimpleDialog> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Colors.blue,
                     borderRadius: BorderRadius.all(Radius.circular(10)),
                   ),
-                  margin: EdgeInsets.all(15),
-                  padding: EdgeInsets.all(15),
+                  margin: const EdgeInsets.all(15),
+                  padding: const EdgeInsets.all(15),
                 ),
               ),
             ],

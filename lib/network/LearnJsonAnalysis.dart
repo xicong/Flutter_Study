@@ -70,7 +70,7 @@ class _LearnJsonAnalysis extends State<LearnJsonAnalysis> {
 
   Future<JsonParsingEntity> parsingData() {
     return Future<JsonParsingEntity>(() {
-      return JsonParsingEntity().fromJson(json.decode(jsonData));
+      return JsonParsingEntity.fromJson(jsonDecode(jsonData));
     });
   }
 }

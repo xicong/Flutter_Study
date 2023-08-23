@@ -62,7 +62,7 @@ class _LearnMaterialPageRoute extends State<LearnMaterialPageRoute> {
                 return Container(
                   margin: const EdgeInsets.only(left: 10, right: 10,top: 10,bottom: 10),
                   child: MaterialButton(
-                    color: Theme.of(context).accentColor,
+                    color: Theme.of(context).colorScheme.secondary,
                     onPressed: () {
                       Navigator.push(context, MaterialPageRoute(builder: (BuildContext context){
                         return LearnMaterialPageRouteWithParameters(values: textEditingController.value.text);
@@ -78,7 +78,7 @@ class _LearnMaterialPageRoute extends State<LearnMaterialPageRoute> {
                 return Container(
                   margin: const EdgeInsets.only(left: 10, right: 10,top: 10,bottom: 10),
                   child: MaterialButton(
-                    color: Theme.of(context).accentColor,
+                    color: Theme.of(context).colorScheme.secondary,
                     onPressed: () {
                       Navigator.push(context, MaterialPageRoute(builder: (BuildContext context){
                         return LearnMaterialPageRouteNoParameters();

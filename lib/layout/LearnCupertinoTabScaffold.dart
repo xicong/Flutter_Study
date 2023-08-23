@@ -36,11 +36,11 @@ class _LearnCupertinoTabScaffold extends State<LearnCupertinoTabScaffold> {
                 })),
                 child: Center(
                   child: CupertinoButton(
-                      child: Text('我是页面$index'),
                       borderRadius:
-                          BorderRadius.all(Radius.circular(5)),
+                          const BorderRadius.all(Radius.circular(5)),
                       color: CupertinoColors.activeBlue,
-                      onPressed: () {}),
+                      onPressed: () {},
+                      child: Text('我是页面$index')),
                 ),
               );
             },

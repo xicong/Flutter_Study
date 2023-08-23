@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_study/main_drawer_user_info.dart';
+import 'package:flutter_study/utils/platform_utils.dart';
 import 'package:flutter_study/utils/style_utils.dart';
 import 'package:flutter_study/utils/toast_utils.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -41,10 +42,10 @@ class _mainDrawer extends State<mainDrawer> {
                 subtitle: const Text("在自带的WebView页面打开"),
                 onTap: () {
                   Navigator.pop(context);
-                  if(Platform.isAndroid||Platform.isIOS){
+                  if(isMobile()){
                     WebViewPage.go(context, "pub.dev", url);
                   }else{
-                    ToastUtils.show("当前设备不支持该功能", context);
+                    showToast(context,"当前设备不支持该功能");
                   }
                 },
               ),
@@ -78,6 +79,21 @@ class _mainDrawer extends State<mainDrawer> {
       _packageInfo = info;
     });
   }
+  Widget listItem(String title,Widget leading,String address){
+    return ListTile(
+      title: Text(title),
+      leading: leading,
+      trailing: const Icon(
+        Icons.arrow_forward_ios,
+        color: Colors.blue,
+      ),
+      onTap: () {
+        Navigator.pop(context);
+        _choosePageOpenModeDialog(context, address);
+      },
+      onLongPress: () {},
+    );
+  }
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -85,38 +101,8 @@ class _mainDrawer extends State<mainDrawer> {
         padding: EdgeInsets.zero, //ListView会有一个上边距
         children: <Widget>[
           const MainDrawerUserInfo(),
-          ListTile(
-            title: const Text("GitHub主页"),
-            leading: const Icon(
-              Icons.people,
-              color: Colors.blue,
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-              color: Colors.blue,
-            ),
-            onTap: () {
-              Navigator.pop(context);
-              _choosePageOpenModeDialog(context, "https://github.com/xicong");
-            },
-            onLongPress: () {},
-          ),
-          ListTile(
-            title: const Text("Pub.Dev"),
-            leading: const Icon(
-              Icons.people,
-              color: Colors.blue,
-            ),
-            trailing: const Icon(
-              Icons.arrow_forward_ios,
-              color: Colors.blue,
-            ),
-            onTap: () {
-              Navigator.pop(context);
-              _choosePageOpenModeDialog(context, "https://pub.dev/");
-            },
-            onLongPress: () {},
-          ),
+          listItem("GitHub主页",const Icon(Icons.people, color: Colors.blue,),"https://github.com/xicong"),
+          listItem("Pub.Dev",const Icon(Icons.people, color: Colors.blue,),"https://pub.dev/"),
           AboutListTile(
             icon: const Icon( //Widget类型可选命名参数，显示的图标
               Icons.child_care,

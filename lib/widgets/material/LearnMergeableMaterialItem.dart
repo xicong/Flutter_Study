@@ -60,7 +60,7 @@ class _LearnMergeableMaterialItem extends State<LearnMergeableMaterialItem> {
       body: Column(
         children: <Widget>[
           MergeableMaterial(hasDividers: true, children: items),
-          RaisedButton(
+          ElevatedButton(
             child: const Text("点击添加"),
             onPressed: () {
               _isChildExpanded();
